@@ -66,3 +66,19 @@ netlify deploy --build
 # production deployment
 netlify deploy --build --prod
 ```
+
+## Tech Stack
+
+## Project Management
+- [ ] Splash img at top of services
+- [ ] Church logo under splash img
+- [ ] Button to join broadcast
+- [ ] Announcements bubble
+- [ ] Services elements
+- [ ] Contact page
+- [ ] Automate splash img selection based on month
+- [ ] Fill data from a single config.json file
+- [ ] Add /edit route with UI to edit services
+- [ ] Hook up database to use with edit functionality
+- [ ] Time travel route to view past services
+- [ ] Missionaries page
