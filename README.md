@@ -68,6 +68,9 @@ netlify deploy --build --prod
 ```
 
 ## Tech Stack
+- Remix
+- Netlify
+- Tailwind
 
 ## Project Management
 - [ ] Splash img at top of services
