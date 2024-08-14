@@ -17,9 +17,9 @@ export default function Index() {
         alt="church-logo"
       />,
       <div key="title-credits" className="church-font text-center p-1 py-2">
-        <p className="font-md">Dana Ranch Ward</p>
-        <p className="font-lg">Sacrament Meeting</p>
-        <p className="font-md">August 19, 2024</p>
+        <p className="text-2xl">Dana Ranch Ward</p>
+        <p className="text-3xl">Sacrament Meeting</p>
+        <p className="text-2xl">August 19, 2024</p>
         <hr className="h-px my-4 bg-gray-400 border-0" />
       </div>
     </div>
