@@ -10,7 +10,11 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="w-full h-full">
-      <img src="/img/bethseda.jpeg" alt="jesus" />
+      <img
+        src="/img/bethseda.jpeg"
+        className="pb-1"
+        alt="jesus"
+      />
       <img
         src="/img/modern-logo.png"
         className="m-auto w-3/4 md:w-1/2"
