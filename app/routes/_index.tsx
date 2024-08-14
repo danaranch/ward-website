@@ -12,7 +12,7 @@ export default function Index() {
     <div className="w-full h-full">
       <img
         src="/img/bethseda.jpeg"
-        className="pb-1"
+        className="pb-4"
         alt="jesus"
       />
       <img
