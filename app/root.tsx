@@ -5,7 +5,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import "./tailwind.css";
+import "./styles.css";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-full w-full">
+      <body className="h-full w-full m-0">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
