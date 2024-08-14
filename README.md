@@ -73,8 +73,8 @@ netlify deploy --build --prod
 - Tailwind
 
 ## Project Management
-- [ ] Splash img at top of services
-- [ ] Church logo under splash img
+- [x] Splash img at top of services
+- [x] Church logo under splash img
 - [ ] Button to join broadcast
 - [ ] Announcements bubble
 - [ ] Services elements

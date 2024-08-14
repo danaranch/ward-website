@@ -21,7 +21,7 @@ export default function Index() {
         <p className="text-3xl">Sacrament Meeting</p>
         <p className="text-2xl">August 19, 2024</p>
       </div>
-      <hr className="h-px my-4 bg-gray-400 border-0" />
+      <hr className="h-px my-8 bg-gray-400 border-0" />
     </div>
   );
 }
