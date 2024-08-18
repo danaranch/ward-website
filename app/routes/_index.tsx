@@ -80,7 +80,7 @@ export default function Index() {
               The Relief Society Stay-cation will be on Sept 6th at 6:30pm and Sept 7th at 9am at the stake center
             </li>
             <li className="py-1">
-              Tithing Declaration is underway- signup sheets are on the door by the clerks office. Please sign up at your convenience, Bishop would like to meet with everyone!
+              Tithing Declaration is underway- signup sheets are on the door by the clerks office. Please sign up at your convenience, Bishop would like to meet with everyone
             </li>
           </ol>
         </div>
