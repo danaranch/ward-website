@@ -54,14 +54,14 @@ export default function Index() {
             <div className="flex-none px-1">Organist</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Joe Capps</div>
+            <div className="flex-none px-1">Whitney Kolstad</div>
           </div>
 
           <div className="flex py-1">
             <div className="flex-none px-1">Chorister</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Joe Capps</div>
+            <div className="flex-none px-1">Daisy Capps</div>
           </div>
         </div>
 
@@ -85,10 +85,10 @@ export default function Index() {
               <div className="flex-none px-1">Opening Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">27</div>
+              <div className="flex-none px-1 text-right">223</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Hymn title</div>
+              <div className="italic">Have I Done Any Good?</div>
               {
                 /* {hymn.link
             ? (
@@ -124,24 +124,10 @@ export default function Index() {
               <div className="flex-none px-1">Sacrament Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">27</div>
+              <div className="flex-none px-1 text-right">196</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Hymn title</div>
-              {
-                /* {hymn.link
-            ? (
-              <a
-                href={hymn.link}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-sky-600 underline italic"
-              >
-                {hymn.title}
-              </a>
-            )
-            : <div className="italic">{hymn.title}</div>} */
-              }
+              <div className="italic">Jesus Once of Humble Birth</div>
             </div>
           </div>
         </div>
@@ -175,10 +161,10 @@ export default function Index() {
               <div className="flex-none px-1">Intermediate Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">27</div>
+              <div className="flex-none px-1 text-right">6</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Hymn title</div>
+              <div className="italic">Redeemer of Isreal</div>
             </div>
           </div>
 
@@ -196,10 +182,10 @@ export default function Index() {
               <div className="flex-none px-1">Closing Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">27</div>
+              <div className="flex-none px-1 text-right">129</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Hymn title</div>
+              <div className="italic">Where Can I Turn For Peace?</div>
             </div>
           </div>
 
