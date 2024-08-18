@@ -67,16 +67,16 @@ export default function Index() {
 
         <div className="bg-sky-500 rounded p-4 text-white my-2">
           <em className="font-bold">Announcements</em>
-          <ul className="list-disc ml-5">
-            <li>
+          <ol className="list-decimal ml-5">
+            <li className="py-1">
               Ward pool party will be tomorrow, Monday Aug 19th from 6:30pm -
               8:30pm
             </li>
-            <li>
+            <li className="py-1">
               We have 2 baptisms this week: Lehi Sloan on Tuesday Aug 20th at
               6pm, and Amethyst Murray on Saturday Aug 24th at 2pm
             </li>
-          </ul>
+          </ol>
         </div>
 
         <div className="py-2">
