@@ -76,6 +76,12 @@ export default function Index() {
               We have 2 baptisms this week: Lehi Sloan on Tuesday Aug 20th at
               6pm, and Amethyst Murray on Saturday Aug 24th at 2pm
             </li>
+            <li>
+              The Relief Society Stay-cation will be on Sept 6th at 6:30pm and Sept 7th at 9am at the stake center
+            </li>
+            <li>
+              Tithing Declaration is underway- signup sheets are on the door by the clerks office. Please sign up at your convenience, Bishop would like to meet with everyone!
+            </li>
           </ol>
         </div>
 
