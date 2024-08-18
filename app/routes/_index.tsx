@@ -25,7 +25,10 @@ export default function Index() {
       </div>
 
       <div className="pt-4">
-        <ActionButton link="" text="Join via broadcast" />
+        <ActionButton
+          link="https://zoom.us/j/98508434243"
+          text="Join via broadcast"
+        />
       </div>
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
@@ -62,8 +65,18 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="text-center py-4">
-          <em className="font-semibold">Welcome & Announcements</em>
+        <div className="bg-sky-500 rounded p-4 text-white my-2">
+          <em className="font-bold">Announcements</em>
+          <ul className="list-disc ml-5">
+            <li>
+              Ward pool party will be tomorrow, Monday Aug 19th from 6:30pm -
+              8:30pm
+            </li>
+            <li>
+              We have 2 baptisms this week: Lehi Sloan on Tuesday Aug 20th at
+              6pm, and Amethyst Murray on Saturday Aug 24th at 2pm
+            </li>
+          </ul>
         </div>
 
         <div className="py-2">
@@ -154,7 +167,7 @@ export default function Index() {
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Elder Riches</div>
+            <div className="flex-none px-1">Elder Cattron</div>
           </div>
 
           <div className="py-1">
