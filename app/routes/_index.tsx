@@ -65,20 +65,28 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="bg-sky-500 rounded p-4 text-white my-2">
-          <em className="font-bold">Announcements</em>
-          <ol className="list-decimal ml-5">
+        <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative font-bold">
+          <img
+            className="absolute left-0 top-0 w-full rounded"
+            src="/img/light-rays.svg"
+            alt="light-rays"
+          />
+          <em className="sticky text-lg">Announcements</em>
+          <ol className="list-decimal ml-5 sticky">
             <li className="py-1">
-              Lorden Jones, for many years a member of Kimball Stake and most recently Meadowgreen Ward,
-              passed away Monday. His funeral will be Tuesday, August 27, 2024 in the Lindsay-Pueblo building.
-              The viewing will be at 10:00 am with the services at 11:00. 
+              Lorden Jones, for many years a member of Kimball Stake, passed
+              away Monday. His funeral will be Tuesday, August 27, 2024 at the
+              Lindsay building. The viewing will be at 10:00 am with the
+              services at 11:00.
             </li>
             <li className="py-1">
-              The Relief Society Stay-cation will be on Sept 6th at 6:30pm and Sept 7th at 9am at the stake center.
+              The Relief Society Stay-cation will be on Sept 6th at 6:30pm and
+              Sept 7th at 9am at the stake center.
             </li>
             <li className="py-1">
-              Tithing Declaration is underway- signup sheets are on the door by the clerks office. Please sign up at
-              your convenience, Bishop would like to meet with everyone.
+              Tithing Declaration is underway- signup sheets are on the door by
+              the clerks office. Please sign up at your convenience, Bishop
+              would like to meet with everyone.
             </li>
           </ol>
         </div>
