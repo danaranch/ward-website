@@ -45,9 +45,7 @@ export default function Index() {
             <div className="flex-none px-1">Conducting</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">
-              <Link to="/business">Matthew Hulse</Link>
-            </div>
+            <div className="flex-none px-1">David Kolstad</div>
           </div>
 
           <div className="flex py-1">
@@ -65,13 +63,13 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative font-bold">
+        <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
-            className="absolute left-0 top-0 w-full rounded"
+            className="absolute left-0 top-0 w-full rounded opacity-75"
             src="/img/light-rays.svg"
             alt="light-rays"
           />
-          <em className="sticky text-lg">Announcements</em>
+          <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="py-1">
               Lorden Jones, for many years a member of Kimball Stake, passed
@@ -87,6 +85,9 @@ export default function Index() {
               Tithing Declaration is underway- signup sheets are on the door by
               the clerks office. Please sign up at your convenience, Bishop
               would like to meet with everyone.
+            </li>
+            <li className="py-1">
+              Ward Conference will be on Sunday, September 8th.
             </li>
           </ol>
         </div>
@@ -127,7 +128,7 @@ export default function Index() {
         </div>
 
         <div className="text-center py-4">
-          <em className="font-semibold">Ward Business</em>
+          <em className="font-semibold text-lg">Ward Business</em>
         </div>
 
         <div className="py-2">
@@ -145,11 +146,13 @@ export default function Index() {
         </div>
 
         <div className="text-center py-4">
-          <em className="font-semibold">Administration of the Sacrament</em>
+          <em className="font-semibold text-lg">
+            Administration of the Sacrament
+          </em>
         </div>
         {
           /* <div className="text-center py-4">
-        <em className="font-semibold">Bearing of Testimonies</em>
+        <em className="font-semibold text-lg">Bearing of Testimonies</em>
       </div> */
         }
 
