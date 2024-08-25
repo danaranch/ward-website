@@ -21,7 +21,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">August 19, 2024</p>
+        <p className="text-2xl">August 25, 2024</p>
       </div>
 
       <div className="pt-4">
@@ -54,33 +54,39 @@ export default function Index() {
             <div className="flex-none px-1">Organist</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Whitney Kolstad</div>
+            <div className="flex-none px-1">Joe Capps</div>
           </div>
 
           <div className="flex py-1">
             <div className="flex-none px-1">Chorister</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Daisy Capps</div>
+            <div className="flex-none px-1">Laurel Cronin</div>
           </div>
         </div>
 
-        <div className="bg-sky-500 rounded p-4 text-white my-2">
-          <em className="font-bold">Announcements</em>
-          <ol className="list-decimal ml-5">
+        <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative font-bold">
+          <img
+            className="absolute left-0 top-0 w-full rounded"
+            src="/img/light-rays.svg"
+            alt="light-rays"
+          />
+          <em className="sticky text-lg">Announcements</em>
+          <ol className="list-decimal ml-5 sticky">
             <li className="py-1">
-              Ward pool party will be tomorrow, Monday Aug 19th from 6:30pm -
-              8:30pm
+              Lorden Jones, for many years a member of Kimball Stake, passed
+              away Monday. His funeral will be Tuesday, August 27, 2024 at the
+              Lindsay building. The viewing will be at 10:00 am with the
+              services at 11:00.
             </li>
             <li className="py-1">
-              We have 2 baptisms this week: Lehi Sloan on Tuesday Aug 20th at
-              6pm, and Amethyst Murray on Saturday Aug 24th at 2pm
+              The Relief Society Stay-cation will be on Sept 6th at 6:30pm and
+              Sept 7th at 9am at the stake center.
             </li>
             <li className="py-1">
-              The Relief Society Stay-cation will be on Sept 6th at 6:30pm and Sept 7th at 9am at the stake center
-            </li>
-            <li className="py-1">
-              Tithing Declaration is underway- signup sheets are on the door by the clerks office. Please sign up at your convenience, Bishop would like to meet with everyone
+              Tithing Declaration is underway- signup sheets are on the door by
+              the clerks office. Please sign up at your convenience, Bishop
+              would like to meet with everyone.
             </li>
           </ol>
         </div>
@@ -91,10 +97,10 @@ export default function Index() {
               <div className="flex-none px-1">Opening Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">223</div>
+              <div className="flex-none px-1 text-right">106</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Have I Done Any Good?</div>
+              <div className="italic">God Speed the Right</div>
               {
                 /* {hymn.link
             ? (
@@ -116,7 +122,7 @@ export default function Index() {
             <div className="flex-none px-1">Invocation</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">By Invitation</div>
+            <div className="flex-none px-1">Daisy Capps</div>
           </div>
         </div>
 
@@ -130,10 +136,10 @@ export default function Index() {
               <div className="flex-none px-1">Sacrament Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">196</div>
+              <div className="flex-none px-1 text-right">169</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Jesus Once of Humble Birth</div>
+              <div className="italic">As Now we Take the Sacrament</div>
             </div>
           </div>
         </div>
@@ -152,14 +158,14 @@ export default function Index() {
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Phoenix Bellessa</div>
+            <div className="flex-none px-1">Claira Speakman</div>
           </div>
 
           <div className="flex py-1">
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Elder Cattron</div>
+            <div className="flex-none px-1">Cindy Fast</div>
           </div>
 
           <div className="py-1">
@@ -167,10 +173,10 @@ export default function Index() {
               <div className="flex-none px-1">Intermediate Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">6</div>
+              <div className="flex-none px-1 text-right">85</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Redeemer of Isreal</div>
+              <div className="italic">How Firm a Foundation</div>
             </div>
           </div>
 
@@ -178,7 +184,7 @@ export default function Index() {
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Elder Riches</div>
+            <div className="flex-none px-1">Michael Clement</div>
           </div>
         </div>
 
@@ -188,10 +194,10 @@ export default function Index() {
               <div className="flex-none px-1">Closing Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">129</div>
+              <div className="flex-none px-1 text-right">108</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Where Can I Turn For Peace?</div>
+              <div className="italic">The Lord is my Shepherd</div>
             </div>
           </div>
 
@@ -199,7 +205,7 @@ export default function Index() {
             <div className="flex-none px-1">Benediction</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">By Invitation</div>
+            <div className="flex-none px-1">Michael Beagle</div>
           </div>
         </div>
       </div>
