@@ -15,7 +15,7 @@ export default function Index() {
       <img src="/img/bethseda.jpeg" className="pb-4" alt="jesus" />
       <img
         src="/img/modern-logo.png"
-        className="m-auto w-3/4 md:w-1/2"
+        className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
         alt="church-logo"
       />
       <div key="title-credits" className="church-font text-center p-1 py-2">
