@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
-import { Link } from "@remix-run/react";
 import ActionButton from "~/components/ActionButton";
 
 export const meta: MetaFunction = () => {
@@ -72,19 +71,12 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="py-1">
-              Lorden Jones, for many years a member of Kimball Stake, passed
-              away Monday. His funeral will be Tuesday, August 27, 2024 at the
-              Lindsay building. The viewing will be at 10:00 am with the
-              services at 11:00.
+              Tithing Declaration is underway, signup sheets are on the door by
+              the clerks office.
             </li>
             <li className="py-1">
-              The Relief Society Stay-cation will be on Sept 6th at 6:30pm and
-              Sept 7th at 9am at the stake center.
-            </li>
-            <li className="py-1">
-              Tithing Declaration is underway- signup sheets are on the door by
-              the clerks office. Please sign up at your convenience, Bishop
-              would like to meet with everyone.
+              The Relief Society Staycation will be on September 6th at 6:30pm
+              and September 7th at 9am at the stake center.
             </li>
             <li className="py-1">
               Ward Conference will be on Sunday, September 8th.
@@ -102,20 +94,6 @@ export default function Index() {
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
               <div className="italic">God Speed the Right</div>
-              {
-                /* {hymn.link
-            ? (
-              <a
-                href={hymn.link}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-sky-600 underline italic"
-              >
-                {hymn.title}
-              </a>
-            )
-            : <div className="italic">{hymn.title}</div>} */
-              }
             </div>
           </div>
 
@@ -150,13 +128,13 @@ export default function Index() {
             Administration of the Sacrament
           </em>
         </div>
-        {
-          /* <div className="text-center py-4">
-        <em className="font-semibold text-lg">Bearing of Testimonies</em>
-      </div> */
-        }
 
-        <div className="py-2">
+        <div className="text-center py-4">
+          <em className="font-semibold text-lg">Bearing of Testimonies</em>
+        </div>
+
+        {
+          /* <div className="py-2">
           <div className="flex py-1">
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
@@ -189,7 +167,8 @@ export default function Index() {
             </div>
             <div className="flex-none px-1">Michael Clement</div>
           </div>
-        </div>
+        </div> */
+        }
 
         <div className="py-2">
           <div className="py-1">
