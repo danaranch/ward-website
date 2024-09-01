@@ -20,7 +20,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">August 25, 2024</p>
+        <p className="text-2xl">September 1, 2024</p>
       </div>
 
       <div className="pt-4">
@@ -90,10 +90,10 @@ export default function Index() {
               <div className="flex-none px-1">Opening Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">106</div>
+              <div className="flex-none px-1 text-right">58</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">God Speed the Right</div>
+              <div className="italic">Come Ye Children of the Lord</div>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ export default function Index() {
             <div className="flex-none px-1">Invocation</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Daisy Capps</div>
+            <div className="flex-none px-1">Joy Kessler</div>
           </div>
         </div>
 
@@ -115,10 +115,10 @@ export default function Index() {
               <div className="flex-none px-1">Sacrament Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">169</div>
+              <div className="flex-none px-1 text-right">172</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">As Now we Take the Sacrament</div>
+              <div className="italic">In Humility, Our Savior</div>
             </div>
           </div>
         </div>
@@ -176,10 +176,10 @@ export default function Index() {
               <div className="flex-none px-1">Closing Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">108</div>
+              <div className="flex-none px-1 text-right">117</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">The Lord is my Shepherd</div>
+              <div className="italic">Come Unto Jesus</div>
             </div>
           </div>
 
@@ -187,7 +187,7 @@ export default function Index() {
             <div className="flex-none px-1">Benediction</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Michael Beagle</div>
+            <div className="flex-none px-1">Terri Smith</div>
           </div>
         </div>
       </div>
