@@ -10,6 +10,11 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
+    /**
+     * TODO: New component
+     * - gets date automatically
+     * - switces hero img by month automatically
+     */
     <div className="w-full h-full">
       <img src="/img/bethseda.jpeg" className="pb-4" alt="jesus" />
       <img
@@ -23,6 +28,11 @@ export default function Index() {
         <p className="text-2xl">September 1, 2024</p>
       </div>
 
+      {
+        /*
+      TODO: Remove component from index when we get posters for foyer
+      */
+      }
       <div className="pt-4">
         <ActionButton
           link="https://zoom.us/j/98508434243"
@@ -74,17 +84,24 @@ export default function Index() {
               Tithing Declaration is underway, signup sheets are on the door by
               the clerks office.
             </li>
-            <li className="py-1">
-              The Relief Society Staycation will be on September 6th at 6:30pm
-              and September 7th at 9am at the stake center.
-            </li>
-            <li className="py-1">
-              Ward Conference will be on Sunday, September 8th.
+            <li>
+              Mission and Life Skills Prep is underway for all juniors and
+              seniors (young men and young women) in high school, as well as
+              those recently graduated from high school. It is held every 2nd
+              and 4th Sunday at 4pm in the Relief Society room.
             </li>
           </ol>
         </div>
 
         <div className="py-2">
+          {
+            /*
+          TODO: New component
+          - Use for all program items
+          - 3 props: leftContent, rightContent, middleContent
+          - replace everywhere
+          */
+          }
           <div className="py-1">
             <div className="flex">
               <div className="flex-none px-1">Opening Hymn</div>
@@ -196,3 +213,17 @@ export default function Index() {
     </div>
   );
 }
+
+/**
+ * TODO:
+ * Scaffold out what a relational db schema would look like
+ * with this data model (laying the groundwork for lcr.danaranchward.org)
+ * - members table
+ *  - will need UI tool to sync/upload from a report from actual LCR. CSV compat likely.
+ *  - will need upload endpoint to be able to dedupe members and also create new entries in members table.
+ *  - will need ability to add "flag" or "annotation" rules to disable showing on speakers upcoming, etc. With UI to list/edit.
+ * - prayers table
+ *  - each entry will have a simple record of date, member ID, and type "opening" or "closing"
+ * - speakers table
+ *  - each entry will have simple record of date and member ID
+ */
