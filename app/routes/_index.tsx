@@ -25,7 +25,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">September 1, 2024</p>
+        <p className="text-2xl">September 8, 2024</p>
       </div>
 
       {
@@ -35,7 +35,7 @@ export default function Index() {
       }
       <div className="pt-4">
         <ActionButton
-          link="https://zoom.us/j/98508434243"
+          link="https://youtube.com/live/cA4y1koNgfQ?feature=share"
           text="Join via broadcast"
         />
       </div>
@@ -47,7 +47,7 @@ export default function Index() {
             <div className="flex-none px-1">Presiding</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Bishop Kent</div>
+            <div className="flex-none px-1">President Sharp</div>
           </div>
 
           <div className="flex py-1">
@@ -61,14 +61,14 @@ export default function Index() {
             <div className="flex-none px-1">Organist</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Joe Capps</div>
+            <div className="flex-none px-1">Whitney Kolstad</div>
           </div>
 
           <div className="flex py-1">
             <div className="flex-none px-1">Chorister</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Laurel Cronin</div>
+            <div className="flex-none px-1">Elizabeth Kasl</div>
           </div>
         </div>
 
@@ -107,10 +107,10 @@ export default function Index() {
               <div className="flex-none px-1">Opening Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">58</div>
+              <div className="flex-none px-1 text-right">241</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Come Ye Children of the Lord</div>
+              <div className="italic">Count Your Blessings</div>
             </div>
           </div>
 
@@ -132,10 +132,10 @@ export default function Index() {
               <div className="flex-none px-1">Sacrament Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">172</div>
+              <div className="flex-none px-1 text-right">174</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">In Humility, Our Savior</div>
+              <div className="italic">While of These Emblems We Partake</div>
             </div>
           </div>
         </div>
@@ -146,35 +146,31 @@ export default function Index() {
           </em>
         </div>
 
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">Bearing of Testimonies</em>
-        </div>
-
         {
-          /* <div className="py-2">
-          <div className="flex py-1">
-            <div className="flex-none px-1">Speaker</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Claira Speakman</div>
-          </div>
+          /* <div className="text-center py-4">
+          <em className="font-semibold text-lg">Bearing of Testimonies</em>
+        </div> */
+        }
 
+        <div className="py-2">
           <div className="flex py-1">
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Cindy Fast</div>
+            <div className="flex-none px-1">Bishop Kent</div>
           </div>
 
           <div className="py-1">
             <div className="flex">
-              <div className="flex-none px-1">Intermediate Hymn</div>
+              <div className="flex-none px-1">Musical Number</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">85</div>
+              <div className="flex-none px-1 text-right">Kyle Huffaker</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">How Firm a Foundation</div>
+              <div className="italic">
+                &quot;I Know That My Redeemer Lives&quot;
+              </div>
             </div>
           </div>
 
@@ -182,10 +178,9 @@ export default function Index() {
             <div className="flex-none px-1">Speaker</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
             </div>
-            <div className="flex-none px-1">Michael Clement</div>
+            <div className="flex-none px-1">President Sharp</div>
           </div>
-        </div> */
-        }
+        </div>
 
         <div className="py-2">
           <div className="py-1">
@@ -193,10 +188,10 @@ export default function Index() {
               <div className="flex-none px-1">Closing Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">117</div>
+              <div className="flex-none px-1 text-right">303</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Come Unto Jesus</div>
+              <div className="italic">Keep The Commandments</div>
             </div>
           </div>
 
