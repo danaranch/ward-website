@@ -47,7 +47,7 @@ export default function Index() {
             <div className="flex-none px-1">Presiding</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Bishop Kent</div>
+            <div className="flex-none px-1">President Sharp</div>
           </div>
 
           <div className="flex py-1">
