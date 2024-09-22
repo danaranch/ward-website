@@ -80,33 +80,33 @@ export default function Index() {
           />
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
-            <li className="py-1">
+            <li className="pt-1">
               Elder Bednar will be a guest speaker at a fireside tonight for all
               young adults at the Tempe Institute building. Fireside starts at
               6pm.
             </li>
-            <li>
+            <li className="pt-1">
               General Conference is in 2 weeks, for more info please visit
               churchofjesuschrist.org. Our Fast Sunday for October will be on
               Oct 13th.
             </li>
-            <li>
+            <li className="pt-1">
               Our ward is in charge of cleaning the building for the rest of the
               year, so be on the lookout for opportunities to help with those
               efforts.
             </li>
-            <li>
+            <li className="pt-1">
               The Primary Program is next week on September 29th.
             </li>
-            <li>
+            <li className="pt-1">
               Tithing declaration will conclude at the end of November. To sign
               up please use the signup sheets by the clerk's office.
             </li>
-            <li>
+            <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
-            <li>
+            <li className="pt-1">
               Linger longer will take place today after church in the cultral hall.
             </li>
           </ol>
