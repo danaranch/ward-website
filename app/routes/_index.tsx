@@ -106,6 +106,9 @@ export default function Index() {
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
+            <li>
+              Linger longer will take place today after church in the cultral hall.
+            </li>
           </ol>
         </div>
 
