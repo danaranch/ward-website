@@ -1,5 +1,7 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import ActionButton from "~/components/ActionButton";
+import LineItem from '~/components/LineItem';
+import LineItemBold from '~/components/LineItemBold';
 
 export const meta: MetaFunction = () => {
   return [
@@ -46,35 +48,10 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <div className="py-2">
-          <div className="flex py-1">
-            <div className="flex-none px-1">Presiding</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">Bishop Kent</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Conducting</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">David Kolstad</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Organist</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">Joe Capps</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Chorister</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">Rhonda Capps</div>
-          </div>
-        </div>
+        <LineItem left="Presiding" right="Bishop Kent" />
+        <LineItem left="Conducting" right="David Kolstad" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Rhonda Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -105,130 +82,28 @@ export default function Index() {
           </ol>
         </div>
 
-        <div className="py-2">
-          {
-            /*
-          TODO: New component
-          - Use for all program items
-          - 3 props: leftContent, rightContent, middleContent
-          - replace everywhere
-          */
-          }
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Opening Hymn</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">301</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">I Am a Child of God</div>
-            </div>
-          </div>
+        <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
+        <LineItem left="Invocation" right="Tracker Reynolds" />
 
-          <div className="flex py-1">
-            <div className="flex-none px-1">Invocation</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Tracker Reynolds</div>
-          </div>
-        </div>
+        <LineItemBold middle="Ward Business" />
 
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">Ward Business</em>
-        </div>
+        <LineItem left="Sacrament Hymn" middle="Tis Sweet to Sing the Matchless Love" right="177" />
+        <LineItemBold middle="Administration of the Sacrament" />
 
-        <div className="py-2">
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Sacrament Hymn</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">177</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Tis Sweet to Sing the Matchless Love</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">
-            Administration of the Sacrament
-          </em>
-        </div>
-
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">Primary Program</em>
-        </div>
+        <LineItemBold middle="Primary Program" />
 
         {
-          /*
-        <div className="py-2">
-          <div className="flex py-1">
-            <div className="flex-none px-1">Speaker</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Natalya Cox</div>
-          </div>
-
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Musical Number</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">Dillon and Tegan Grenko</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">
-                &quot;I Know That My Redeemer Lives&quot;
-              </div>
-            </div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Intermediate Hymn</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1 text-right">105</div>
-          </div>
-          <div className="text-center font-sm truncate zero-auto max-75">
-            <div className="italic">Master, the Tempest is Raging</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Speaker</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Shaeli Kersee</div>
-          </div>
-        </div>
+        /*
+        <LineItem left="Speaker" right="Natalya Cox" />
+        <LineItem left="Musical Number" middle="I Know That My Redeemer Lives" right="Dillon and Tegan Grenko" />
+        <LineItem left="Intermediate Hymn" middle="Master, the Tempest is Raging" right="105" />
+        <LineItem left="Speaker" right="Shaeli Kersee" />
         */
         }
 
-        <div className="py-2">
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Closing Hymn</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">Primary 74</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">
-                I Feel My Savior's Love (congregation join and stand on last
-                verse)
-              </div>
-            </div>
-          </div>
+        <LineItem left="Closing Hymn" middle="I Feel My Savior's Love (congregation join and stand on last verse)" right="Primary 74" />
 
-          <div className="flex py-1">
-            <div className="flex-none px-1">Benediction</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Liz Cornia</div>
-          </div>
-        </div>
+        <LineItem left="Benediction" right="Liz Cornia" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
