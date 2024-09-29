@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import ActionButton from "~/components/ActionButton";
 import LineItem from '~/components/LineItem';
+import LineItemBold from '~/components/LineItemBold';
 
 export const meta: MetaFunction = () => {
   return [
@@ -82,24 +83,14 @@ export default function Index() {
         </div>
 
         <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
-
         <LineItem left="Invocation" right="Tracker Reynolds" />
 
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">Ward Business</em>
-        </div>
+        <LineItemBold middle="Ward Business" />
 
         <LineItem left="Sacrament Hymn" middle="Tis Sweet to Sing the Matchless Love" right="177" />
+        <LineItemBold middle="Administration of the Sacrament" />
 
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">
-            Administration of the Sacrament
-          </em>
-        </div>
-
-        <div className="text-center py-4">
-          <em className="font-semibold text-lg">Primary Program</em>
-        </div>
+        <LineItemBold middle="Primary Program" />
 
         {
         /*
