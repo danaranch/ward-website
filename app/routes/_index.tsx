@@ -47,12 +47,10 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <div className="py-2">
-          <LineItem left="Presiding" right="Bishop Kent" />
-          <LineItem left="Conducting" right="David Kolstad" />
-          <LineItem left="Organist" right="Joe Capps" />
-          <LineItem left="Chorister" right="Rhonda Capps" />
-        </div>
+        <LineItem left="Presiding" right="Bishop Kent" />
+        <LineItem left="Conducting" right="David Kolstad" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Rhonda Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -83,27 +81,15 @@ export default function Index() {
           </ol>
         </div>
 
-        <div className="py-2">
-          {
-            /*
-          TODO: New component
-          - Use for all program items
-          - 3 props: leftContent, rightContent, middleContent
-          - replace everywhere
-          */
-          }
-          <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
+        <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
 
-          <LineItem left="Invocation" right="Tracker Reynolds" />
-        </div>
+        <LineItem left="Invocation" right="Tracker Reynolds" />
 
         <div className="text-center py-4">
           <em className="font-semibold text-lg">Ward Business</em>
         </div>
 
-        <div className="py-2">
-          <LineItem left="Sacrament Hymn" middle="Tis Sweet to Sing the Matchless Love" right="177" />
-        </div>
+        <LineItem left="Sacrament Hymn" middle="Tis Sweet to Sing the Matchless Love" right="177" />
 
         <div className="text-center py-4">
           <em className="font-semibold text-lg">
@@ -116,54 +102,17 @@ export default function Index() {
         </div>
 
         {
-          /*
-        <div className="py-2">
-          <div className="flex py-1">
-            <div className="flex-none px-1">Speaker</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Natalya Cox</div>
-          </div>
-
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Musical Number</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">Dillon and Tegan Grenko</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">
-                &quot;I Know That My Redeemer Lives&quot;
-              </div>
-            </div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Intermediate Hymn</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1 text-right">105</div>
-          </div>
-          <div className="text-center font-sm truncate zero-auto max-75">
-            <div className="italic">Master, the Tempest is Raging</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Speaker</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Shaeli Kersee</div>
-          </div>
-        </div>
+        /*
+        <LineItem left="Speaker" right="Natalya Cox" />
+        <LineItem left="Musical Number" middle="I Know That My Redeemer Lives" right="Dillon and Tegan Grenko" />
+        <LineItem left="Intermediate Hymn" middle="Master, the Tempest is Raging" right="105" />
+        <LineItem left="Speaker" right="Shaeli Kersee" />
         */
         }
 
-        <div className="py-2">
-          <LineItem left="Closing Hymn" middle="I Feel My Savior's Love (congregation join and stand on last verse)" right="Primary 74" />
+        <LineItem left="Closing Hymn" middle="I Feel My Savior's Love (congregation join and stand on last verse)" right="Primary 74" />
 
-          <LineItem left="Benediction" right="Liz Cornia" />
-        </div>
+        <LineItem left="Benediction" right="Liz Cornia" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
