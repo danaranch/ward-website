@@ -101,7 +101,7 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Closing Hymn" middle="I Feel My Savior's Love (congregation join and stand on last verse)" right="Primary 74" />
+        <LineItem left="Closing Hymn" middle="I Feel My Savior's Love<br />(congregation join and stand on last verse)" right="Primary 74" />
 
         <LineItem left="Benediction" right="Liz Cornia" />
       </div>
