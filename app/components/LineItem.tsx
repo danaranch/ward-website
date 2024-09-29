@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 interface LineItemProps {
   left: string;
-  middle: string;
+  middle?: string;
   right: string;
 }
 
