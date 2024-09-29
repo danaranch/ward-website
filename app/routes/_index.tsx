@@ -48,33 +48,10 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <div className="py-2">
-          <div className="flex py-1">
-            <div className="flex-none px-1">Presiding</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">Bishop Kent</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Conducting</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">David Kolstad</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Organist</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">Joe Capps</div>
-          </div>
-
-          <div className="flex py-1">
-            <div className="flex-none px-1">Chorister</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
-            </div>
-            <div className="flex-none px-1">Rhonda Capps</div>
-          </div>
+          <LineItem left="Presiding" right="Bishop Kent" />
+          <LineItem left="Conducting" right="David Kolstad" />
+          <LineItem left="Organist" right="Joe Capps" />
+          <LineItem left="Chorister" right="Rhonda Capps" />
         </div>
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
@@ -115,16 +92,9 @@ export default function Index() {
           - replace everywhere
           */
           }
-          <div className="py-1">
-            <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
-          </div>
+          <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
 
-          <div className="flex py-1">
-            <div className="flex-none px-1">Invocation</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Tracker Reynolds</div>
-          </div>
+          <LineItem left="Invocation" right="Tracker Reynolds" />
         </div>
 
         <div className="text-center py-4">
@@ -132,17 +102,7 @@ export default function Index() {
         </div>
 
         <div className="py-2">
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Sacrament Hymn</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">177</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">Tis Sweet to Sing the Matchless Love</div>
-            </div>
-          </div>
+          <LineItem left="Sacrament Hymn" middle="Tis Sweet to Sing the Matchless Love" right="177" />
         </div>
 
         <div className="text-center py-4">
@@ -200,27 +160,9 @@ export default function Index() {
         }
 
         <div className="py-2">
-          <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Closing Hymn</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">Primary 74</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">
-                I Feel My Savior's Love (congregation join and stand on last
-                verse)
-              </div>
-            </div>
-          </div>
+          <LineItem left="Closing Hymn" middle="I Feel My Savior's Love (congregation join and stand on last verse)" right="Primary 74" />
 
-          <div className="flex py-1">
-            <div className="flex-none px-1">Benediction</div>
-            <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-            </div>
-            <div className="flex-none px-1">Liz Cornia</div>
-          </div>
+          <LineItem left="Benediction" right="Liz Cornia" />
         </div>
       </div>
 
