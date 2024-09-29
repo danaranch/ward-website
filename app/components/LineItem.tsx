@@ -1,3 +1,4 @@
+
 import { FC } from 'react';
 
 interface LineItemProps {
@@ -17,7 +18,7 @@ const LineItem: FC<LineItemProps> = ({ left, middle, right }) => {
       </div>
       {middle && (
         <div className="text-center font-sm truncate zero-auto max-75">
-          <div className="italic">{middle}</div>
+          <div className="italic" dangerouslySetInnerHTML={{ __html: middle }}></div>
         </div>
       )}
     </div>
