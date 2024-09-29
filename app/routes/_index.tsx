@@ -208,7 +208,7 @@ export default function Index() {
               <div className="flex-none px-1">Closing Hymn</div>
               <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
               </div>
-              <div className="flex-none px-1 text-right">1001</div>
+              <div className="flex-none px-1 text-right">Primary 74</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
               <div className="italic">I Feel My Savior's Love (congregation join and stand on last verse)</div>
