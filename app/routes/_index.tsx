@@ -54,7 +54,7 @@ export default function Index() {
             <div className="flex-none px-1">Conducting</div>
             <div className="flex-1 mb-1 border-b border-dashed border-stone-300">
             </div>
-            <div className="flex-none px-1">Matthew Hulse</div>
+            <div className="flex-none px-1">David Kolstad</div>
           </div>
 
           <div className="flex py-1">
@@ -156,7 +156,7 @@ export default function Index() {
 
         <div className="text-center py-4">
           <em className="font-semibold text-lg">Primary Program</em>
-        </div> 
+        </div>
 
         {
           /*
@@ -211,7 +211,10 @@ export default function Index() {
               <div className="flex-none px-1 text-right">Primary 74</div>
             </div>
             <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">I Feel My Savior's Love (congregation join and stand on last verse)</div>
+              <div className="italic">
+                I Feel My Savior's Love (congregation join and stand on last
+                verse)
+              </div>
             </div>
           </div>
 
