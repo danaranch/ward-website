@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import ActionButton from "~/components/ActionButton";
+import LineItem from '~/components/LineItem';
 
 export const meta: MetaFunction = () => {
   return [
@@ -115,15 +116,7 @@ export default function Index() {
           */
           }
           <div className="py-1">
-            <div className="flex">
-              <div className="flex-none px-1">Opening Hymn</div>
-              <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
-              </div>
-              <div className="flex-none px-1 text-right">301</div>
-            </div>
-            <div className="text-center font-sm truncate zero-auto max-75">
-              <div className="italic">I Am a Child of God</div>
-            </div>
+            <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
           </div>
 
           <div className="flex py-1">
