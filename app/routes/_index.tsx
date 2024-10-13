@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import ActionButton from "~/components/ActionButton";
-import LineItem from '~/components/LineItem';
-import LineItemBold from '~/components/LineItemBold';
+import LineItem from "~/components/LineItem";
+import LineItemBold from "~/components/LineItemBold";
 
 export const meta: MetaFunction = () => {
   return [
@@ -63,8 +63,15 @@ export default function Index() {
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
               Our ward is in charge of cleaning the building for the rest of the
-              year, so be on the lookout for opportunities to help with those
-              efforts.
+              year, we have{" "}
+              <a href="https://www.signupgenius.com/go/10C0D4DA9AA29AAFAC25-52295230-dana">
+                an online sigup here
+              </a>, we ask that each household sign-up for at least 2 Saturdays
+              between now and the end of the year.
+            </li>
+            <li className="pt-1">
+              There will be a church-wide youth broadcast on October 27th, for
+              more information please visit the church website.
             </li>
             <li className="pt-1">
               Tithing declaration will conclude at the end of November. To sign
@@ -77,7 +84,11 @@ export default function Index() {
           </ol>
         </div>
 
-        <LineItem left="Opening Hymn" middle="We Thank Thee O God for a Prophet" right="19" />
+        <LineItem
+          left="Opening Hymn"
+          middle="We Thank Thee O God for a Prophet"
+          right="19"
+        />
         <LineItem left="Invocation" right="Ashlee Gray" />
 
         <LineItemBold middle="Ward Business" />
@@ -88,7 +99,7 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
 
         {
-        /*
+          /*
         <LineItem left="Speaker" right="Natalya Cox" />
         <LineItem left="Musical Number" middle="I Know That My Redeemer Lives" right="Dillon and Tegan Grenko" />
         <LineItem left="Intermediate Hymn" middle="Master, the Tempest is Raging" right="105" />
@@ -96,7 +107,11 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Closing Hymn" middle="I Need Thee Every Hour" right="98" />
+        <LineItem
+          left="Closing Hymn"
+          middle="I Need Thee Every Hour"
+          right="98"
+        />
 
         <LineItem left="Benediction" right="Shaeli Kersee" />
       </div>
