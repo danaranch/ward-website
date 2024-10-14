@@ -64,9 +64,12 @@ export default function Index() {
             <li className="pt-1">
               Our ward is in charge of cleaning the building for the rest of the
               year, we have{" "}
-              <a href="https://www.signupgenius.com/go/10C0D4DA9AA29AAFAC25-52295230-dana">
-                an online sigup here
-              </a>, we ask that each household sign-up for at least 2 Saturdays
+              <strong>
+                <a href="https://www.signupgenius.com/go/10C0D4DA9AA29AAFAC25-52295230-dana">
+                  an online sigup here
+                </a>
+              </strong>
+              , we ask that each household sign-up for at least 2 Saturdays
               between now and the end of the year.
             </li>
             <li className="pt-1">
