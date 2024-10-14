@@ -64,7 +64,7 @@ export default function Index() {
             <li className="pt-1">
               Our ward is in charge of cleaning the building for the rest of the
               year, we have{" "}
-              <strong>
+              <strong style={{ textDecoration: "underline" }}>
                 <a href="https://www.signupgenius.com/go/10C0D4DA9AA29AAFAC25-52295230-dana">
                   an online sigup here
                 </a>
