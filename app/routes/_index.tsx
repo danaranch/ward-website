@@ -111,9 +111,9 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Ian Anderson" />
+        <LineItem left="Speaker" right="Elder Ian Anderson" />
         <LineItem left="Musical Number" middle="I Hope They Call me on a Mission" right="Owen and Violet Capps" />
-        <LineItem left="Speaker" right="Hunter Beals" />
+        <LineItem left="Speaker" right="Elder Hunter Beals" />
 
         <LineItem
           left="Closing Hymn"
