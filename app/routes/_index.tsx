@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">October 13, 2024</p>
+        <p className="text-2xl">October 20, 2024</p>
       </div>
 
       {
@@ -41,7 +41,7 @@ export default function Index() {
       }
       <div className="pt-4">
         <ActionButton
-          link="https://youtube.com/live/6qf7renaxxA?feature=share"
+          link="https://youtube.com/live/U4gETT3wer8?feature=share"
           text="Join via broadcast"
         />
       </div>
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Kent" />
         <LineItem left="Conducting" right="David Kolstad" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Elizabeth Kasl" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -89,34 +89,39 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="We Thank Thee O God for a Prophet"
-          right="19"
+          middle="Hope Of Israel"
+          right="259"
         />
-        <LineItem left="Invocation" right="Ashlee Gray" />
+        <LineItem left="Invocation" right="Jeff Downs" />
 
         <LineItemBold middle="Ward Business" />
 
-        <LineItem left="Sacrament Hymn" middle="O Lord of Hosts" right="178" />
+        <LineItem
+          left="Sacrament Hymn"
+          middle="Father in Heaven, We Do Believe"
+          right="180"
+        />
         <LineItemBold middle="Administration of the Sacrament" />
 
+        {
+        /*
         <LineItemBold middle="Bearing of Testimonies" />
 
-        {
-          /*
-        <LineItem left="Speaker" right="Natalya Cox" />
-        <LineItem left="Musical Number" middle="I Know That My Redeemer Lives" right="Dillon and Tegan Grenko" />
         <LineItem left="Intermediate Hymn" middle="Master, the Tempest is Raging" right="105" />
-        <LineItem left="Speaker" right="Shaeli Kersee" />
         */
         }
 
+        <LineItem left="Speaker" right="Ian Anderson" />
+        <LineItem left="Musical Number" middle="I Hope They Call me on a Mission" right="Owen and Violet Capps" />
+        <LineItem left="Speaker" right="Hunter Beals" />
+
         <LineItem
           left="Closing Hymn"
-          middle="I Need Thee Every Hour"
-          right="98"
+          middle="Onward Christian Soldiers"
+          right="246"
         />
 
-        <LineItem left="Benediction" right="Shaeli Kersee" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
