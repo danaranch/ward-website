@@ -41,7 +41,7 @@ export default function Index() {
       }
       <div className="pt-4">
         <ActionButton
-          link="https://youtube.com/live/U4gETT3wer8?feature=share"
+          link="https://zoom.us/j/98508434243"
           text="Join via broadcast"
         />
       </div>
