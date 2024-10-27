@@ -92,7 +92,7 @@ export default function Index() {
           middle="Come, Rejoice"
           right="9"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Summer Bellessa" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -122,7 +122,7 @@ export default function Index() {
           right="1010"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Shauna Flake" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
