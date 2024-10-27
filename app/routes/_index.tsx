@@ -73,7 +73,7 @@ export default function Index() {
               between now and the end of the year.
             </li>
             <li className="pt-1">
-              There will be a church-wide youth broadcast today, October 27th, at 4 PM for
+              There will be a church-wide youth broadcast today, October 27th, at 7 PM in the YW room. For
               more information please visit the church website.
             </li>
             <li className="pt-1">
