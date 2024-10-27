@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">October 20, 2024</p>
+        <p className="text-2xl">October 27, 2024</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Kent" />
         <LineItem left="Conducting" right="David Kolstad" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Brie Wadsworth-Gates" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -73,7 +73,7 @@ export default function Index() {
               between now and the end of the year.
             </li>
             <li className="pt-1">
-              There will be a church-wide youth broadcast on October 27th, for
+              There will be a church-wide youth broadcast today, October 27th, at 4 PM for
               more information please visit the church website.
             </li>
             <li className="pt-1">
@@ -89,17 +89,17 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Hope Of Israel"
-          right="259"
+          middle="Come, Rejoice"
+          right="9"
         />
-        <LineItem left="Invocation" right="Jeff Downs" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Father in Heaven, We Do Believe"
-          right="180"
+          middle="Jesus of Nazareth, Savior and King"
+          right="181"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
@@ -111,14 +111,15 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Elder Ian Anderson" />
-        <LineItem left="Musical Number" middle="I Hope They Call me on a Mission" right="Owen and Violet Capps" />
-        <LineItem left="Speaker" right="Elder Hunter Beals" />
+        <LineItem left="Speaker" right="Elder Baggaley" />
+        <LineItem left="Speaker" right="Sara Shoemaker" />
+        <LineItem left="Intermediate Hymn" middle="Battle Hymn of the Republic" right="60" />
+        <LineItem left="Speaker" right="Andrew Jarman" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Onward Christian Soldiers"
-          right="246"
+          middle="Amazing Grace"
+          right="1010"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
