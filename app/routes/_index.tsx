@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">October 27, 2024</p>
+        <p className="text-2xl">November 3, 2024</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Kent" />
         <LineItem left="Conducting" right="David Kolstad" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Brie Wadsworth-Gates" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Daisy Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -73,10 +73,6 @@ export default function Index() {
               between now and the end of the year.
             </li>
             <li className="pt-1">
-              There will be a church-wide youth broadcast today, October 27th, at 7 PM in the YW room. For
-              more information please visit the church website.
-            </li>
-            <li className="pt-1">
               Tithing declaration will conclude at the end of November. To sign
               up please use the signup sheets by the clerk's office.
             </li>
@@ -89,40 +85,38 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Rejoice"
-          right="9"
+          middle="Praise to the Lord, the Almighty"
+          right="72"
         />
-        <LineItem left="Invocation" right="Summer Bellessa" />
+        <LineItem left="Invocation" right="Kim Huffaker" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus of Nazareth, Savior and King"
-          right="181"
+          middle="We'll Sing All Hail to Jesus' Name"
+          right="182"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {
-        /*
         <LineItemBold middle="Bearing of Testimonies" />
 
-        <LineItem left="Intermediate Hymn" middle="Master, the Tempest is Raging" right="105" />
-        */
-        }
-
+        {
+        /*
         <LineItem left="Speaker" right="Elder Baggaley" />
         <LineItem left="Speaker" right="Sara Shoemaker" />
         <LineItem left="Intermediate Hymn" middle="Battle Hymn of the Republic" right="60" />
         <LineItem left="Speaker" right="Andrew Jarman" />
+        */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="Amazing Grace"
-          right="1010"
+          middle="Praise God, from Whom All Blessings Flow"
+          right="242"
         />
 
-        <LineItem left="Benediction" right="Shauna Flake" />
+        <LineItem left="Benediction" right="Duane Johnson" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
