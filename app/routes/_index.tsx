@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 3, 2024</p>
+        <p className="text-2xl">November 10, 2024</p>
       </div>
 
       {
@@ -48,10 +48,10 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItem left="Presiding" right="Bishop Kent" />
-        <LineItem left="Conducting" right="David Kolstad" />
+        <LineItem left="Presiding" right="Bishop Shumway" />
+        <LineItem left="Conducting" right="Bishop Shumway" />
         <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Daisy Capps" />
+        <LineItem left="Chorister" right="Elizabeth Kasl" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -85,38 +85,38 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Praise to the Lord, the Almighty"
-          right="72"
+          middle="Glory to God on High"
+          right="67"
         />
-        <LineItem left="Invocation" right="Kim Huffaker" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="We'll Sing All Hail to Jesus' Name"
-          right="182"
+          middle="In Remembrance of Thy Suffering"
+          right="183"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {
         /*
-        <LineItem left="Speaker" right="Elder Baggaley" />
-        <LineItem left="Speaker" right="Sara Shoemaker" />
-        <LineItem left="Intermediate Hymn" middle="Battle Hymn of the Republic" right="60" />
-        <LineItem left="Speaker" right="Andrew Jarman" />
+        <LineItemBold middle="Bearing of Testimonies" />
         */
         }
 
+        <LineItem left="Speaker" right="" />
+        <LineItem left="Speaker" right="" />
+        <LineItem left="Intermediate Hymn" middle="Oh, the Deep Deep Love of Jesus" right="1015" />
+        <LineItem left="Speaker" right="" />
+
         <LineItem
           left="Closing Hymn"
-          middle="Praise God, from Whom All Blessings Flow"
-          right="242"
+          middle="Prayer of Thanksgiving"
+          right="93"
         />
 
-        <LineItem left="Benediction" right="Duane Johnson" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
