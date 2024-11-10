@@ -105,10 +105,10 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="" />
-        <LineItem left="Speaker" right="" />
+        <LineItem left="Speaker" right="Keegan Flake" />
+        <LineItem left="Speaker" right="Amanda Sloan" />
         <LineItem left="Intermediate Hymn" middle="Oh, the Deep Deep Love of Jesus" right="1015" />
-        <LineItem left="Speaker" right="" />
+        <LineItem left="Speaker" right="Derek Sloan" />
 
         <LineItem
           left="Closing Hymn"
