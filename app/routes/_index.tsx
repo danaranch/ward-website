@@ -48,7 +48,7 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItem left="Presiding" right="Bishop Shumway" />
+        <LineItem left="Presiding" right=Will Shoemaker" />
         <LineItem left="Conducting" right="Chase Roberts" />
         <LineItem left="Organist" right="Joe Capps" />
         <LineItem left="Chorister" right="Rhonda Capps" />
