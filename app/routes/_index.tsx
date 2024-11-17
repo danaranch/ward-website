@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 10, 2024</p>
+        <p className="text-2xl">November 17, 2024</p>
       </div>
 
       {
@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Bishop Shumway" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Elizabeth Kasl" />
+        <LineItem left="Conducting" right="Chase Roberts" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Rhonda Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -85,17 +85,17 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Glory to God on High"
-          right="67"
+          middle="Come, All Ye Saints of Zion"
+          right="38"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="MaryAnn Kaberry" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Remembrance of Thy Suffering"
-          right="183"
+          middle="Upon the Cross of Calvary"
+          right="184"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
@@ -105,18 +105,17 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Keegan Flake" />
-        <LineItem left="Speaker" right="Amanda Sloan" />
-        <LineItem left="Intermediate Hymn" middle="Oh, the Deep Deep Love of Jesus" right="1015" />
-        <LineItem left="Speaker" right="Derek Sloan" />
+        <LineItem left="Speaker" right="Rigdon Shumway" />
+        <LineItem left="Intermediate Hymn" middle="Scatter Sunshine" right="230" />
+        <LineItem left="Speaker" right="Tyler Reynolds" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Prayer of Thanksgiving"
-          right="93"
+          middle="Nearer, My God, to Thee"
+          right="100"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Joel Kasl" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
