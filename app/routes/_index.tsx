@@ -48,8 +48,8 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItem left="Presiding" right=Bishop Shumway" />
-        <LineItem left="Conducting" right="Chase Roberts" />
+        <LineItem left="Presiding" right="Bishop Shumway" />
+        <LineItem left="Conducting" right="Bishop Shumway" />
         <LineItem left="Organist" right="Joe Capps" />
         <LineItem left="Chorister" right="Cindy Fast" />
 
@@ -105,9 +105,9 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Rigdon Shumway" />
+        <LineItem left="Speaker" right="Joel Kasl" />
         <LineItem left="Special Musical Number" right="Huffaker Family" />
-        <LineItem left="Speaker" right="Tyler Reynolds" />
+        <LineItem left="Speaker" right="Alvin Huffaker" />
 
         <LineItem
           left="Closing Hymn"
