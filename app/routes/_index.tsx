@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 17, 2024</p>
+        <p className="text-2xl">November 24, 2024</p>
       </div>
 
       {
@@ -48,10 +48,10 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItem left="Presiding" right=Will Shoemaker" />
+        <LineItem left="Presiding" right=Bishop Shumway" />
         <LineItem left="Conducting" right="Chase Roberts" />
         <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Rhonda Capps" />
+        <LineItem left="Chorister" right="Cindy Fast" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -85,17 +85,17 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, All Ye Saints of Zion"
-          right="38"
+          middle="Come, Ye Thankful People"
+          right="94"
         />
-        <LineItem left="Invocation" right="MaryAnn Kaberry" />
+        <LineItem left="Invocation" right="Andrew Jarman" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Upon the Cross of Calvary"
-          right="184"
+          middle="Reverently and Meekly Now"
+          right="185"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
@@ -106,16 +106,16 @@ export default function Index() {
         }
 
         <LineItem left="Speaker" right="Rigdon Shumway" />
-        <LineItem left="Intermediate Hymn" middle="Scatter Sunshine" right="230" />
+        <LineItem left="Special Musical Number" right="Huffaker Family" />
         <LineItem left="Speaker" right="Tyler Reynolds" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Nearer, My God, to Thee"
-          right="100"
+          middle="Because I Have Been Given Much"
+          right="219"
         />
 
-        <LineItem left="Benediction" right="Joel Kasl" />
+        <LineItem left="Benediction" right="Kyle Huffaker" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
