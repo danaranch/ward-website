@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 24, 2024</p>
+        <p className="text-2xl">December 1, 2024</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Bishop Shumway" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Cindy Fast" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -62,21 +62,6 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Our ward is in charge of cleaning the building for the rest of the
-              year, we have{" "}
-              <strong style={{ textDecoration: "underline" }}>
-                <a href="https://www.signupgenius.com/go/10C0D4DA9AA29AAFAC25-52295230-dana">
-                  an online sigup here
-                </a>
-              </strong>
-              , we ask that each household sign-up for at least 2 Saturdays
-              between now and the end of the year.
-            </li>
-            <li className="pt-1">
-              Tithing declaration will conclude at the end of November. To sign
-              up please use the signup sheets by the clerk's office.
-            </li>
-            <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
@@ -85,37 +70,37 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Ye Thankful People"
-          right="94"
+          middle="Hark, The Herald Angels Sing"
+          right="209"
         />
-        <LineItem left="Invocation" right="Andrew Jarman" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Reverently and Meekly Now"
-          right="185"
+          middle="Again We Meet Around the Board"
+          right="186"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
         /*
-        <LineItemBold middle="Bearing of Testimonies" />
-        */
-        }
-
         <LineItem left="Speaker" right="Joel Kasl" />
         <LineItem left="Special Musical Number" right="Huffaker Family" />
         <LineItem left="Speaker" right="Alvin Huffaker" />
+        */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="Because I Have Been Given Much"
-          right="219"
+          middle="O Little Town of Bethlehem"
+          right="208"
         />
 
-        <LineItem left="Benediction" right="Kyle Huffaker" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
