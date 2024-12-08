@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 1, 2024</p>
+        <p className="text-2xl">December 8, 2024</p>
       </div>
 
       {
@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Bishop Shumway" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Conducting" right="Will Shoemaker" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Laurel Cronin" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -70,37 +70,38 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Hark, The Herald Angels Sing"
-          right="209"
+          middle="Far, Far Away on Judea's Plains"
+          right="212"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Matt Hulse" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Again We Meet Around the Board"
-          right="186"
+          middle="Thy Will, O Lord, Be Done"
+          right="188"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {
         /*
-        <LineItem left="Speaker" right="Joel Kasl" />
-        <LineItem left="Special Musical Number" right="Huffaker Family" />
-        <LineItem left="Speaker" right="Alvin Huffaker" />
+        <LineItemBold middle="Bearing of Testimonies" />
         */
         }
 
+        <LineItem left="Speaker" right="Conrad Hoover" />
+        <LineItem left="Speaker" right="Rhonda Capps" />
+        <LineItem left="Intermediate Hymn" middle="With Wondering Awe" right="210" />
+        <LineItem left="Speaker" right="Mark Fast" />
+
         <LineItem
           left="Closing Hymn"
-          middle="O Little Town of Bethlehem"
-          right="208"
+          middle="Once in Royal David's City"
+          right="205"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Brandon Kent" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
