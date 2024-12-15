@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 8, 2024</p>
+        <p className="text-2xl">December 15, 2024</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Laurel Cronin" />
+        <LineItem left="Organist" right="Whitney Kolstad, Anne Flaherty (prelude)" />
+        <LineItem left="Chorister" right="Elizabeth Kasl" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -62,6 +62,17 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              Today is a special ward fast for Owen Capps and the Capps family.
+            </li>
+            <li className="pt-1">
+              As a reminder, today (December 15) is a "Fifth Sunday", with Sunday School being
+              on the 29th this month.
+            </li>
+            <li className="pt-1">
+              There will be a Youth Stake New Year's Eve Concert on December 31st at 7:30pm in the
+              South parking lot at the Stake Center.
+            </li>
+            <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
@@ -70,17 +81,17 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Far, Far Away on Judea's Plains"
-          right="212"
+          middle="Angels We Have Heard on High"
+          right="203"
         />
-        <LineItem left="Invocation" right="Matt Hulse" />
+        <LineItem left="Invocation" right="Melody Williams" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Thy Will, O Lord, Be Done"
-          right="188"
+          middle="God Loved Us, So He Sent His Son"
+          right="187"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
@@ -90,18 +101,17 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Conrad Hoover" />
-        <LineItem left="Speaker" right="Rhonda Capps" />
-        <LineItem left="Intermediate Hymn" middle="With Wondering Awe" right="210" />
-        <LineItem left="Speaker" right="Mark Fast" />
+        <LineItem left="Speaker" right="Austin Evans" />
+        <LineItem left="Intermediate Hymn" middle="It Came Upon a Midnight Clear" right="207" />
+        <LineItem left="Speaker" right="Robert Allison" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Once in Royal David's City"
-          right="205"
+          middle="The First Noel"
+          right="213"
         />
 
-        <LineItem left="Benediction" right="Brandon Kent" />
+        <LineItem left="Benediction" right="Mackenzie Young" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
