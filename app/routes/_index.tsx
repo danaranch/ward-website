@@ -68,6 +68,9 @@ export default function Index() {
               As a reminder, today (December 15) is a "Fifth Sunday", with Sunday School being
               on the 29th this month.
             </li>
+<li className="pt-1">
+              The ward Christmas party is on Friday, December 20.
+            </li>
             <li className="pt-1">
               There will be a Youth Stake New Year's Eve Concert on December 31st at 7:30pm in the
               South parking lot at the Stake Center.
