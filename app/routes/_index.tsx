@@ -69,7 +69,7 @@ export default function Index() {
               on the 29th this month.
             </li>
 <li className="pt-1">
-              The ward Christmas party is on Friday, December 20.
+              The ward Christmas party is on Friday, December 20 at 6 PM.
             </li>
             <li className="pt-1">
               There will be a Youth Stake New Year's Eve Concert on December 31st at 7:30pm in the
