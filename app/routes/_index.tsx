@@ -80,7 +80,7 @@ export default function Index() {
           middle="Joy to the World"
           right="201"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Mike Wilhelm" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -99,9 +99,9 @@ export default function Index() {
 
         <LineItem left="Special Musical Number" middle="Chirstmas Bells" right="Primary"/>
         <LineItem left="Special Musical Number" middle="What Child is This?" right="Speakman Family" />
-        <LineItemBold middle="Testimony" />
+        <LineItem left="Speaker" right="Jim Stewart" />
         <LineItem left="Special Musical Number" middle="In the Bleak Midwinter" right="Jayna Hulse, Violet Capps" />
-        <LineItemBold middle="Testimony" />
+        <LineItem left="Speaker" right="Katy Flaherty" />
         <LineItem left="Special Musical Number" middle="Hark! The Herald Angels Sing" right="Kolstad Family" />
         <LineItem left="Special Musical Number" middle="Away in a Manger" right="Jarman Family" />
         
@@ -119,7 +119,7 @@ export default function Index() {
           right="202"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Spencer Hardy" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
