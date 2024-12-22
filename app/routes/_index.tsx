@@ -91,8 +91,20 @@ export default function Index() {
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
+        {
+          /*
         <LineItemBold middle="Bearing of Testimonies" />
+        */
+        }
 
+        <LineItem left="Special Musical Number" middle="Chirstmas Bells" right="Primary"/>
+        <LineItem left="Special Musical Number" middle="What Child is This?" right="Speakman Family" />
+        <LineItemBold middle="Testimony" />
+        <LineItem left="Special Musical Number" middle="In the Bleak Midwinter" right="Jayna Hulse, Violet Capps" />
+        <LineItemBold middle="Testimony" />
+        <LineItem left="Special Musical Number" middle="Hark! The Herald Angels Sing" right="Kolstad Family" />
+        <LineItem left="Special Musical Number" middle="Away in a Manger" right="Jarman Family" />
+        
         {
         /*
         <LineItem left="Speaker" right="Austin Evans" />
