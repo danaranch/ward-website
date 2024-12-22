@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 15, 2024</p>
+        <p className="text-2xl">December 22, 2024</p>
       </div>
 
       {
@@ -50,7 +50,7 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Whitney Kolstad, Anne Flaherty (prelude)" />
+        <LineItem left="Organist" right="Joe Capps" />
         <LineItem left="Chorister" right="Elizabeth Kasl" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
@@ -62,14 +62,7 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Today is a special ward fast for Owen Capps and the Capps family.
-            </li>
-            <li className="pt-1">
-              As a reminder, today (December 15) is a "Fifth Sunday", with Sunday School being
-              on the 29th this month.
-            </li>
-<li className="pt-1">
-              The ward Christmas party is on Friday, December 20 at 6 PM.
+              As a reminder, today (December 22), we will only be meeting for Sacrament Meeting to allow families to be together.
             </li>
             <li className="pt-1">
               There will be a Youth Stake New Year's Eve Concert on December 31st at 7:30pm in the
@@ -77,44 +70,44 @@ export default function Index() {
             </li>
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
-              every 2nd and 4th Sunday at 4pm in the Relief Society room.
+              every 2nd and 4th Sunday at 4pm in the Relief Society room (except for today).
             </li>
           </ol>
         </div>
 
         <LineItem
           left="Opening Hymn"
-          middle="Angels We Have Heard on High"
-          right="203"
+          middle="Joy to the World"
+          right="201"
         />
-        <LineItem left="Invocation" right="Melody Williams" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God Loved Us, So He Sent His Son"
-          right="187"
+          middle="Jesus, One of Humble Birth"
+          right="196"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
         /*
-        <LineItemBold middle="Bearing of Testimonies" />
-        */
-        }
-
         <LineItem left="Speaker" right="Austin Evans" />
         <LineItem left="Intermediate Hymn" middle="It Came Upon a Midnight Clear" right="207" />
         <LineItem left="Speaker" right="Robert Allison" />
+        */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="The First Noel"
-          right="213"
+          middle="Oh, Come, All Ye Faithful"
+          right="202"
         />
 
-        <LineItem left="Benediction" right="Mackenzie Young" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
