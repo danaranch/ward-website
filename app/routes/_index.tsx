@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 22, 2024</p>
+        <p className="text-2xl">December 29, 2024</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Elizabeth Kasl" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -62,32 +62,29 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              As a reminder, today (December 22), we will only be meeting for Sacrament Meeting to allow families to be together.
-            </li>
-            <li className="pt-1">
               There will be a Youth Stake New Year's Eve Concert on December 31st at 7:30pm in the
               South parking lot at the Stake Center.
             </li>
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
-              every 2nd and 4th Sunday at 4pm in the Relief Society room (except for today).
+              every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
           </ol>
         </div>
 
         <LineItem
           left="Opening Hymn"
-          middle="Joy to the World"
-          right="201"
+          middle="Come, Let us Anew"
+          right="217"
         />
-        <LineItem left="Invocation" right="Mike Wilhelm" />
+        <LineItem left="Invocation" right="Cindy Fast" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus, One of Humble Birth"
-          right="196"
+          middle="Behold the Wounds in Jesus' Hands"
+          right="1016"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
@@ -97,29 +94,18 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Special Musical Number" middle="Chirstmas Bells" right="Primary"/>
-        <LineItem left="Special Musical Number" middle="What Child is This?" right="Speakman Family" />
-        <LineItem left="Speaker" right="Jim Stewart" />
-        <LineItem left="Special Musical Number" middle="In the Bleak Midwinter" right="Jayna Hulse, Violet Capps" />
-        <LineItem left="Speaker" right="Katy Flaherty" />
-        <LineItem left="Special Musical Number" middle="Hark! The Herald Angels Sing" right="Kolstad Family" />
-        <LineItem left="Special Musical Number" middle="Away in a Manger" right="Jarman Family" />
-        
-        {
-        /*
-        <LineItem left="Speaker" right="Austin Evans" />
-        <LineItem left="Intermediate Hymn" middle="It Came Upon a Midnight Clear" right="207" />
-        <LineItem left="Speaker" right="Robert Allison" />
-        */
-        }
+        <LineItem left="Speaker" right="Fenix Huffaker" />
+        <LineItem left="Intermediate Hymn" middle="He is Born, the Divine Christ Child" right="1202" />
+        <LineItem left="Speaker" right="Kinsey Wallace" />
+        <LineItem left="Speaker" right="Carsten Brady" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Oh, Come, All Ye Faithful"
-          right="202"
+          middle="Jesus, Savior, Pilot Me"
+          right="104"
         />
 
-        <LineItem left="Benediction" right="Spencer Hardy" />
+        <LineItem left="Benediction" right="Lisa Brandt" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
