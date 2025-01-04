@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 29, 2024</p>
+        <p className="text-2xl">January 5, 2025</p>
       </div>
 
       {
@@ -62,8 +62,15 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              There will be a Youth Stake New Year's Eve Concert on December 31st at 7:30pm in the
-              South parking lot at the Stake Center.
+              Sacrament Meeting begins at 9 AM for 2025.
+            </li>
+            <li className="pt-1">
+              The Cultural Hall is unavaialble from Jan 6th through Jan 24th due
+              to revarnishing the floor. Please plan accordinly.
+            </li>
+            <li className="pt-1">
+              A Youth Devotional with an Apostle will be held Saturday, January 11 at 7pm.
+              It will be held at the Lehi Stake Center.
             </li>
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
@@ -74,38 +81,38 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Let us Anew"
-          right="217"
+          middle="Guide Us, O Thou Great Jehovah"
+          right="83"
         />
-        <LineItem left="Invocation" right="Cindy Fast" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold the Wounds in Jesus' Hands"
-          right="1016"
+          middle="In Memory of the Crucified"
+          right="190"
         />
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-        */
-        }
-
         <LineItem left="Speaker" right="Fenix Huffaker" />
         <LineItem left="Intermediate Hymn" middle="He is Born, the Divine Christ Child" right="1202" />
         <LineItem left="Speaker" right="Kinsey Wallace" />
         <LineItem left="Speaker" right="Carsten Brady" />
+        */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="Jesus, Savior, Pilot Me"
-          right="104"
+          middle="Dear to the Heart of the Shepherd"
+          right="221"
         />
 
-        <LineItem left="Benediction" right="Lisa Brandt" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
