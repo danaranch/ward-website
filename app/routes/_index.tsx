@@ -66,11 +66,11 @@ export default function Index() {
             </li>
             <li className="pt-1">
               The Cultural Hall is unavaialble from Jan 6th through Jan 24th due
-              to revarnishing the floor. Please plan accordinly.
+              to revarnishing the floor. Please plan accordingly.
             </li>
             <li className="pt-1">
               A Youth Devotional with an Apostle will be held Saturday, January 11 at 7pm.
-              It will be held at the Lehi Stake Center.
+              It will be held at the Lehi Stake Center. There will be limited parking, so carpooling is encouraged.
             </li>
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
@@ -84,7 +84,7 @@ export default function Index() {
           middle="Guide Us, O Thou Great Jehovah"
           right="83"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Sydney Kent" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -112,7 +112,7 @@ export default function Index() {
           right="221"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Paden Gray" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
