@@ -49,7 +49,7 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Will Shoemaker" />
+        <LineItem left="Conducting" right="Chase Roberts" />
         <LineItem left="Organist" right="Whitney Kolstad" />
         <LineItem left="Chorister" right="Joe Capps" />
 
