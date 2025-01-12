@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Chase Roberts" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Conducting" right="Will Shoemaker" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Laurel Cronin" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -69,10 +69,6 @@ export default function Index() {
               to revarnishing the floor. Please plan accordingly.
             </li>
             <li className="pt-1">
-              A Youth Devotional with an Apostle will be held Saturday, January 11 at 7pm.
-              It will be held at the Lehi Stake Center. There will be limited parking, so carpooling is encouraged.
-            </li>
-            <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
@@ -81,38 +77,39 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Guide Us, O Thou Great Jehovah"
-          right="83"
+          middle="O Thou Rock of Our Salvation"
+          right="258"
         />
-        <LineItem left="Invocation" right="Sydney Kent" />
+        <LineItem left="Invocation" right="Shawn Williams" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Memory of the Crucified"
-          right="190"
+          middle="Behold The Great Redeemer Die"
+          right="191"
         />
-        <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
+        <LineItemBold middle="Administration of the Sacrament" />
 
         {
           /*
-        <LineItem left="Speaker" right="Fenix Huffaker" />
-        <LineItem left="Intermediate Hymn" middle="He is Born, the Divine Christ Child" right="1202" />
-        <LineItem left="Speaker" right="Kinsey Wallace" />
-        <LineItem left="Speaker" right="Carsten Brady" />
+        <LineItemBold middle="Bearing of Testimonies" />
         */
         }
 
+        <LineItem left="Speaker" right="Nena Reynolds" />
+        <LineItem left="Intermediate Hymn" middle="Onward Christian Soldiers" right="246" />
+        <LineItem left="Speaker" right="Hope Nicoll" />
+        <LineItem left="Speaker" right="Landon Nicoll" />
+
         <LineItem
           left="Closing Hymn"
-          middle="Dear to the Heart of the Shepherd"
-          right="221"
+          middle="Lord I Would Follow Thee"
+          right="220"
         />
 
-        <LineItem left="Benediction" right="Paden Gray" />
+        <LineItem left="Benediction" right="Sara Shoemaker" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
