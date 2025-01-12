@@ -99,8 +99,8 @@ export default function Index() {
         }
 
         <LineItem left="Speaker" right="Nena Reynolds" />
-        <LineItem left="Intermediate Hymn" middle="Onward Christian Soldiers" right="246" />
         <LineItem left="Speaker" right="Hope Nicoll" />
+        <LineItem left="Intermediate Hymn" middle="Onward Christian Soldiers" right="246" />
         <LineItem left="Speaker" right="Landon Nicoll" />
 
         <LineItem
