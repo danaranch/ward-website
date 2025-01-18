@@ -84,6 +84,7 @@ export default function Index() {
           left="Opening Hymn"
           middle="The Morning Breaks"
           right="1"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/the-morning-breaks?lang=eng"
         />
         <LineItem left="Invocation" right="" />
 
@@ -93,6 +94,7 @@ export default function Index() {
           left="Sacrament Hymn"
           middle="He Died! The Great Redeemer Died"
           right="192"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -104,13 +106,19 @@ export default function Index() {
         }
 
         <LineItem left="Speaker" right="Gavin Lloyd" />
-        <LineItem left="Intermediate Hymn" middle="We are Marching on to Glory" right="225" />
+        <LineItem
+          left="Intermediate Hymn"
+          middle="We are Marching on to Glory"
+          right="225"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/we-are-marching-on-to-glory?lang=eng"
+        />
         <LineItem left="Speaker" right="Rob Jarvis" />
 
         <LineItem
           left="Closing Hymn"
           middle="Joseph Smith's First Prayer"
           right="26"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/joseph-smiths-first-prayer?lang=eng"
         />
 
         <LineItem left="Benediction" right="" />
