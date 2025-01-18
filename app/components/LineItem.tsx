@@ -5,10 +5,11 @@ interface LineItemProps {
   left: string;
   middle?: string;
   right: string;
+  link?: string; // Optional link property
 }
 
-const LineItem: FC<LineItemProps> = ({ left, middle, right }) => {
-  return (
+const LineItem: FC<LineItemProps> = ({ left, middle, right, link }) => {
+  const content = (
     <div className="py-1">
       <div className="flex">
         <div className="flex-none px-1">{left}</div>
@@ -22,6 +23,14 @@ const LineItem: FC<LineItemProps> = ({ left, middle, right }) => {
         </div>
       )}
     </div>
+  );
+
+  return link ? (
+    <a href={link} className="block">
+      {content}
+    </a>
+  ) : (
+    content
   );
 };
 
