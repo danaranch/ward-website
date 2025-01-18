@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Chase Roberts" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Laurel Cronin" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -69,6 +69,11 @@ export default function Index() {
               to revarnishing the floor. Please plan accordingly.
             </li>
             <li className="pt-1">
+              Bishop's Hang Out: Cereal Sunday.
+              All priests and young women class 16-18 are invited to the Shumway's
+              home on the third Sunday of each month from 7:00-8:30 pm.
+            </li>
+            <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 4pm in the Relief Society room.
             </li>
@@ -77,17 +82,17 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="O Thou Rock of Our Salvation"
-          right="258"
+          middle="The Morning Breaks"
+          right="1"
         />
-        <LineItem left="Invocation" right="Shawn Williams" />
+        <LineItem left="Invocation" right="" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold The Great Redeemer Die"
-          right="191"
+          middle="He Died! The Great Redeemer Died"
+          right="192"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -98,18 +103,17 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Nena Reynolds" />
-        <LineItem left="Speaker" right="Hope Nicoll" />
-        <LineItem left="Intermediate Hymn" middle="Onward Christian Soldiers" right="246" />
-        <LineItem left="Speaker" right="Landon Nicoll" />
+        <LineItem left="Speaker" right="Gavin Lloyd" />
+        <LineItem left="Intermediate Hymn" middle="We are Marching on to Glory" right="225" />
+        <LineItem left="Speaker" right="Rob Jarvis" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Lord I Would Follow Thee"
-          right="220"
+          middle="Joseph Smith's First Prayer"
+          right="26"
         />
 
-        <LineItem left="Benediction" right="Sara Shoemaker" />
+        <LineItem left="Benediction" right="" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
