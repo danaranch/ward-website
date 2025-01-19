@@ -86,7 +86,7 @@ export default function Index() {
           right="1"
           link="https://www.churchofjesuschrist.org/music/library/hymns/the-morning-breaks?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Aileen Speakman" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -121,7 +121,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/music/library/hymns/joseph-smiths-first-prayer?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Logan Young" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
