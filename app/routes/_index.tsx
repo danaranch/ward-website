@@ -65,7 +65,7 @@ export default function Index() {
               Sacrament Meeting begins at 9 AM for 2025.
             </li>
             <li className="pt-1">
-              The Cultural Hall is unavaialble from Jan 6th through Jan 24th due
+              The Cultural Hall is unavailable from Jan 6th through Jan 24th due
               to revarnishing the floor. Please plan accordingly.
             </li>
             <li className="pt-1">
