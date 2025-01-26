@@ -64,6 +64,9 @@ export default function Index() {
             <li className="pt-1">
               Sacrament Meeting begins at 9 AM for 2025.
             </li>
+<li className="pt-1">
+              Stake Conference is February 2. Fast Sunday will on February 9.
+            </li>
             <li className="pt-1">
               The Cultural Hall is unavailable from Jan 6th through Jan 24th due
               to revarnishing the floor. Please plan accordingly.
