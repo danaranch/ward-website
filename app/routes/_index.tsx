@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">January 5, 2025</p>
+        <p className="text-2xl">January 26, 2025</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Chase Roberts" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Laurel Cronin" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -82,19 +82,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Morning Breaks"
-          right="1"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/the-morning-breaks?lang=eng"
+          middle="Redeemer of Israel"
+          right="6"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/redeemer-of-israel?lang=eng"
         />
-        <LineItem left="Invocation" right="Aileen Speakman" />
+        <LineItem left="Invocation" right="Kim Huffaker" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="He Died! The Great Redeemer Died"
-          right="192"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng"
+          middle="I Stand All Amazed"
+          right="193"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -105,23 +105,24 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Gavin Lloyd" />
+        <LineItem left="Speaker" right="Haylee Hulse" />
+        <LineItem left="Speaker" right="Jaron Speakman" />
         <LineItem
           left="Intermediate Hymn"
-          middle="We are Marching on to Glory"
-          right="225"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/we-are-marching-on-to-glory?lang=eng"
+          middle="There Is Sunshine in My Soul Today"
+          right="227"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/there-is-sunshine-in-my-soul-today?lang=eng"
         />
-        <LineItem left="Speaker" right="Rob Jarvis" />
+        <LineItem left="Speaker" right="Steven Ray" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Joseph Smith's First Prayer"
-          right="26"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/joseph-smiths-first-prayer?lang=eng"
+          middle="Our Savior's Love"
+          right="113"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/our-saviors-love?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Logan Young" />
+        <LineItem left="Benediction" right="Landon Nicoll" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
