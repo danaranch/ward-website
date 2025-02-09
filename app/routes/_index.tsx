@@ -62,7 +62,7 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              There will be a Ward Temple night for endowments on Feb 21.
+              There will be a Ward Temple night for endowments on Feb 21 at 6:15 PM.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday.
