@@ -68,7 +68,7 @@ export default function Index() {
             </li>
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
-              every 2nd and 4th Sunday at 4pm in the Relief Society room.
+              every 2nd and 4th Sunday at 3pm in the Relief Society room.
             </li>
           </ol>
         </div>
@@ -79,7 +79,7 @@ export default function Index() {
           right="67"
           link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Justun Richardson" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -115,7 +115,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/we-love-thy-house-o-god?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Mike Cooley" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
