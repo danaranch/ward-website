@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">January 26, 2025</p>
+        <p className="text-2xl">February 9, 2025</p>
       </div>
 
       {
@@ -49,7 +49,7 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Chase Roberts" />
+        <LineItem left="Conducting" right="Bishop Shumway" />
         <LineItem left="Organist" right="Joe Capps" />
         <LineItem left="Chorister" right="Laurel Cronin" />
 
@@ -61,16 +61,6 @@ export default function Index() {
           />
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              Sacrament Meeting begins at 9 AM for 2025.
-            </li>
-<li className="pt-1">
-              Stake Conference is February 2. Fast Sunday will on February 9.
-            </li>
-            <li className="pt-1">
-              The Cultural Hall is unavailable from Jan 6th through Jan 24th due
-              to revarnishing the floor. Please plan accordingly.
-            </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday.
               All priests and young women class 16-18 are invited to the Shumway's
@@ -85,29 +75,27 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Redeemer of Israel"
-          right="6"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/redeemer-of-israel?lang=eng"
+          middle="Glory to God on High"
+          right="67"
+          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
         />
-        <LineItem left="Invocation" right="Kim Huffaker" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="I Stand All Amazed"
-          right="193"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng"
+          middle="How Great the Wisdom and the Love"
+          right="195"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-        */
-        }
-
         <LineItem left="Speaker" right="Haylee Hulse" />
         <LineItem left="Speaker" right="Jaron Speakman" />
         <LineItem
@@ -117,15 +105,17 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/music/library/hymns/there-is-sunshine-in-my-soul-today?lang=eng"
         />
         <LineItem left="Speaker" right="Steven Ray" />
+        */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="Our Savior's Love"
-          right="113"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/our-saviors-love?lang=eng"
+          middle="We Love thy House, O God"
+          right="247"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we-love-thy-house-o-god?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Landon Nicoll" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
