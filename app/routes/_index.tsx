@@ -62,6 +62,9 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              There will be a Ward Temple night for endowments on Feb 21.
+            </li>
+            <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday.
               All priests and young women class 16-18 are invited to the Shumway's
               home on the third Sunday of each month from 7:00-8:30 pm.
