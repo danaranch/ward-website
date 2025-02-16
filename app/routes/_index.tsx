@@ -82,7 +82,7 @@ export default function Index() {
           right="294"
           link="https://www.churchofjesuschrist.org/media/music/songs/love-at-home?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Chris Cooley" />
 
         <LineItemBold middle="Ward Business" />
 
