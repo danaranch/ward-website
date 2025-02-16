@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">February 9, 2025</p>
+        <p className="text-2xl">February 16, 2025</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Bishop Shumway" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Laurel Cronin" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -78,47 +78,47 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Glory to God on High"
-          right="67"
-          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
+          middle="Love at Home"
+          right="294"
+          link="https://www.churchofjesuschrist.org/media/music/songs/love-at-home?lang=eng"
         />
-        <LineItem left="Invocation" right="Justun Richardson" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="How Great the Wisdom and the Love"
-          right="195"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
+          middle="As Now We Take the Sacrament"
+          right="169"
+          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {
           /*
-        <LineItem left="Speaker" right="Haylee Hulse" />
-        <LineItem left="Speaker" right="Jaron Speakman" />
+        <LineItemBold middle="Bearing of Testimonies" />
+          */
+        }
+
+        <LineItem left="Speaker" right="Violet Capps" />
+        <LineItem left="Speaker" right="Emily Palmer" />
         <LineItem
           left="Intermediate Hymn"
-          middle="There Is Sunshine in My Soul Today"
-          right="227"
-          link="https://www.churchofjesuschrist.org/music/library/hymns/there-is-sunshine-in-my-soul-today?lang=eng"
+          middle="Today, While the Sun Shines"
+          right="229"
+          link="https://www.churchofjesuschrist.org/music/library/hymns/today-while-the-sun-shines?lang=eng"
         />
-        <LineItem left="Speaker" right="Steven Ray" />
-        */
-        }
+        <LineItem left="Speaker" right="Kyle Huffaker" />
 
         <LineItem
           left="Closing Hymn"
-          middle="We Love thy House, O God"
-          right="247"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we-love-thy-house-o-god?lang=eng"
+          middle="Secret Prayer"
+          right="144"
+          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Mike Cooley" />
+        <LineItem left="Benediction" right="Nicholas Wallace" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
