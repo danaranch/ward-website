@@ -79,7 +79,7 @@ export default function Index() {
           right="66"
           link="https://www.churchofjesuschrist.org/media/music/songs/rejoice-the-lord-is-king?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Sasha Anderson" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -99,13 +99,13 @@ export default function Index() {
         }
 
         <LineItem left="Speaker" right="Nash Huffaker" />
-        <LineItem left="Speaker" right="Bennett Andersen" />
+        <LineItem left="Speaker" right="Becky Grenko" />
         <LineItem
           left="Intermediate Hymn"
           middle="Amazing Grace"
           right="Hailee, Daisy, Calli, Whitney"
         />
-        <LineItem left="Speaker" right="Becky Grenko" />
+        <LineItem left="Speaker" right="Bennett Andersen" />
 
         <LineItem
           left="Closing Hymn"
@@ -114,7 +114,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/lead-me-into-life-eternal?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Marta Bradshaw" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
