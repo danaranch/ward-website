@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">February 23, 2025</p>
+        <p className="text-2xl">March 2, 2025</p>
       </div>
 
       {
@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Bishop Shumway" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Laurel Cronin" />
+        <LineItem left="Conducting" right="Will Shoemaker" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -75,29 +75,27 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Rejoice, the Lord is King"
-          right="66"
-          link="https://www.churchofjesuschrist.org/media/music/songs/rejoice-the-lord-is-king?lang=eng"
+          middle="On This Day of Joy and Gladness"
+          right="64"
+          link="https://www.churchofjesuschrist.org/media/music/songs/on-this-day-of-joy-and-gladness?lang=eng"
         />
-        <LineItem left="Invocation" right="Sasha Anderson" />
+        <LineItem left="Invocation" right="Rhonda Capps" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God Our Father, Hear Us Pray"
-          right="170"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
+          middle="With Humble Heart"
+          right="171"
+          link="https://www.churchofjesuschrist.org/media/music/songs/with-humble-heart?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-          */
-        }
-
         <LineItem left="Speaker" right="Nash Huffaker" />
         <LineItem left="Speaker" right="Becky Grenko" />
         <LineItem
@@ -106,15 +104,17 @@ export default function Index() {
           right="Hailee, Daisy, Calli, Whitney"
         />
         <LineItem left="Speaker" right="Bennett Andersen" />
+          */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="Lead Me into Life Eternal"
-          right="45"
-          link="https://www.churchofjesuschrist.org/media/music/songs/lead-me-into-life-eternal?lang=eng"
+          middle="Be Thou Humble"
+          right="130"
+          link="https://www.churchofjesuschrist.org/media/music/songs/be-thou-humble?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Marta Bradshaw" />
+        <LineItem left="Benediction" right="Tim Cronin" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
