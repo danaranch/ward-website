@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Brie Wadsworth-Gates" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -75,9 +75,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="All Creatures of Our God and King"
-          right="62"
-          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
+          middle="Now Let us Rejoice"
+          right="3"
+          link="https://www.churchofjesuschrist.org/media/music/songs/now-let-us-rejoice?lang=eng"
         />
         <LineItem left="Invocation" right="Rob Anderson" />
 
@@ -85,9 +85,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Humility, Our Savior"
-          right="172"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
+          middle="As Now We Take the Sacrament"
+          right="169"
+          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -102,17 +102,17 @@ export default function Index() {
         <LineItem left="Speaker" right="David Malone" />
         <LineItem
           left="Intermediate Hymn"
-          middle="Do What is Right Grace"
-          right="237"
-          link="https://www.churchofjesuschrist.org/media/music/songs/do-what-is-right?lang=eng"
+          middle="Have I done any Good?"
+          right="223"
+          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
         />
         <LineItem left="Speaker" right="Sydney Kent" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Let The Holy Spirit Guide"
-          right="143"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
+          middle="Prayer is the Souls Sincere Desire"
+          right="145"
+          link="https://www.churchofjesuschrist.org/media/music/songs/prayer-is-the-souls-sincere-desire?lang=eng"
         />
 
         <LineItem left="Benediction" right="Jane Beagle" />
