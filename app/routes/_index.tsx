@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">March 2, 2025</p>
+        <p className="text-2xl">March 9, 2025</p>
       </div>
 
       {
@@ -75,46 +75,47 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="On This Day of Joy and Gladness"
-          right="64"
-          link="https://www.churchofjesuschrist.org/media/music/songs/on-this-day-of-joy-and-gladness?lang=eng"
+          middle="All Creatures of Our God and King"
+          right="62"
+          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
         />
-        <LineItem left="Invocation" right="Rhonda Capps" />
+        <LineItem left="Invocation" right="Rob Anderson" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="With Humble Heart"
-          right="171"
-          link="https://www.churchofjesuschrist.org/media/music/songs/with-humble-heart?lang=eng"
+          middle="In Humility, Our Savior"
+          right="172"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {
           /*
-        <LineItem left="Speaker" right="Nash Huffaker" />
-        <LineItem left="Speaker" right="Becky Grenko" />
-        <LineItem
-          left="Intermediate Hymn"
-          middle="Amazing Grace"
-          right="Hailee, Daisy, Calli, Whitney"
-        />
-        <LineItem left="Speaker" right="Bennett Andersen" />
+        <LineItemBold middle="Bearing of Testimonies" />
           */
         }
 
+        <LineItem left="Speaker" right="Missionaries" />
+        <LineItem left="Speaker" right="David Malone" />
+        <LineItem
+          left="Intermediate Hymn"
+          middle="Do What is Right Grace"
+          right="237"
+          link="https://www.churchofjesuschrist.org/media/music/songs/do-what-is-right?lang=eng"
+        />
+        <LineItem left="Speaker" right="Sydney Kent" />
+
         <LineItem
           left="Closing Hymn"
-          middle="Be Thou Humble"
-          right="130"
-          link="https://www.churchofjesuschrist.org/media/music/songs/be-thou-humble?lang=eng"
+          middle="Let The Holy Spirit Guide"
+          right="143"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Tim Cronin" />
+        <LineItem left="Benediction" right="Jane Beagle" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
