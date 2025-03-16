@@ -19,12 +19,12 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/bethseda.jpg"
+        src="/img/bethseda.jpeg"
         className="pb-4 m-auto"
         alt="jesus"
       />
       <img
-        src="/img/retro-logo.png"
+        src="/img/modern-logo.png"
         className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
         alt="church-logo"
       />
