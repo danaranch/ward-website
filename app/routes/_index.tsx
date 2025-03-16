@@ -19,19 +19,19 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/christ_little_ones.jpg"
+        src="/img/bethseda.jpg"
         className="pb-4 m-auto"
         alt="jesus"
       />
       <img
-        src="/img/modern-logo.png"
+        src="/img/retro-logo.png"
         className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
         alt="church-logo"
       />
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">March 9, 2025</p>
+        <p className="text-2xl">March 16, 2025</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Brie Wadsworth-Gates" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Elizabeth Kasl" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -62,9 +62,9 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Bishop's Hang Out: Cereal Sunday.
-              All priests and young women class 16-18 are invited to the Shumway's
-              home on the third Sunday of each month from 7:00-8:30 pm.
+              Bishop's Hang Out: Cereal Sunday. All priests and young women
+              class 16-18 are invited to the Shumway's home on the third Sunday
+              of each month from 7:00-8:30 pm.
             </li>
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
@@ -75,19 +75,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Now Let us Rejoice"
-          right="3"
-          link="https://www.churchofjesuschrist.org/media/music/songs/now-let-us-rejoice?lang=eng"
+          middle="All Creatures of Our God and King"
+          right="62"
+          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?crumbs=hymns&lang=eng"
         />
-        <LineItem left="Invocation" right="Rob Anderson" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="As Now We Take the Sacrament"
-          right="169"
-          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
+          middle="In Humility, Our Savior"
+          right="172"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?crumbs=hymns&lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -98,24 +98,25 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="Missionaries" />
-        <LineItem left="Speaker" right="David Malone" />
+        <LineItem left="Speaker" right="Maggie Smith" />
+
         <LineItem
           left="Intermediate Hymn"
-          middle="Have I done any Good?"
-          right="223"
-          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
+          middle="Do What Is Right"
+          right="237"
+          link="https://www.churchofjesuschrist.org/media/music/songs/do-what-is-right?crumbs=hymns&lang=eng"
         />
-        <LineItem left="Speaker" right="Sydney Kent" />
+
+        <LineItem left="Speaker" right="Bryan Stradling" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Prayer is the Souls Sincere Desire"
-          right="145"
-          link="https://www.churchofjesuschrist.org/media/music/songs/prayer-is-the-souls-sincere-desire?lang=eng"
+          middle="Let the Holy Spirit Guide"
+          right="143"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?crumbs=hymns&lang=eng"
         />
 
-        <LineItem left="Benediction" right="Jane Beagle" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
