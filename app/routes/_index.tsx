@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">March 23, 2025</p>
+        <p className="text-2xl">March 30, 2025</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Laurel Cronin" />
+        <LineItem left="Organist" right="Whitney Kolstad" />
+        <LineItem left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -61,6 +61,12 @@ export default function Index() {
           />
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
+            <li className="pt-1">
+              Today, March 30th, is both Fast Sunday and 5th Sunday.
+            </li>
+            <li className="pt-1">
+              Next weekend is General Conference (April 5-6).
+            </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway's home on the third Sunday
@@ -75,29 +81,27 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Day Dawn is Breaking"
-          right="52"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-day-dawn-is-breaking?lang=eng"
+          middle="We Thank Thee, O God, for a Prophet"
+          right="19"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet?lang=eng"
         />
-        <LineItem left="Invocation" right="Julie Clement" />
+        <LineItem left="Invocation" right="By Invititation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="While of These Emblems We Partake"
-          right="174"
-          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake?lang=eng"
+          middle="Tis Sweet to Sing the Matchless Love"
+          right="176"
+          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-          */
-        }
-
         <LineItem left="Speaker" right="Hunter Reynolds" />
         <LineItem left="Speaker" right="Jennifer Andersen" />
         <LineItem
@@ -107,15 +111,17 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/standing-on-the-promises?lang=eng"
         />
         <LineItem left="Speaker" right="Nicholas Wallace" />
+          */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="As I Search the Holy Scriptures"
-          right="277"
-          link="https://www.churchofjesuschrist.org/media/music/songs/as-i-search-the-holy-scriptures?lang=eng"
+          middle="Sing We Now at Parting"
+          right="156"
+          link="https://www.churchofjesuschrist.org/media/music/songs/sing-we-now-at-parting?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Fabio Guimarães" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
