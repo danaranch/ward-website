@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">March 30, 2025</p>
+        <p className="text-2xl">April 13, 2025</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Julie Clement" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -62,10 +62,11 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Today, March 30th, is both Fast Sunday and 5th Sunday.
+              The ward Easter party will be held on Saturday 4/19/25 from 7pm to 8:30pm at our ward building.
             </li>
             <li className="pt-1">
-              Next weekend is General Conference (April 5-6).
+              Next week, April 20th, is Easter. There will only be sacrament meeting,
+              with no second hour to allow families to spend time together.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -81,47 +82,72 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="We Thank Thee, O God, for a Prophet"
-          right="19"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet?lang=eng"
+          middle="Hail The Day That Sees Him Rise"
+          right="1201"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hail-the-day-that-sees-him-rise?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invititation" />
+        <LineItem left="Invocation" right="Paden Gray" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Tis Sweet to Sing the Matchless Love"
-          right="176"
-          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
+          middle="O God, the Eternal Father"
+          right="175"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        {
+          /*
         <LineItemBold middle="Bearing of Testimonies" />
+          */
+        }
+
+        <LineItem
+          left="Special Musical Number"
+          middle="Tell Me the Stories of Jesus"
+          right="Mason and Bristol Gray"
+        />
+        <LineItem left="Speaker" right="Caitlin Jarman" />
+        <LineItem
+          left="Special Musical Number"
+          middle="There is a Green Hill Far Away"
+          right="Jackson Roberts"
+        />
+        <LineItem left="Speaker" right="Justun Richardson" />
+        <LineItem
+          left="Special Musical Number"
+          middle="He Sent His Son"
+          right="Jade and Chloe Overstreet"
+        />
+        <LineItem left="Speaker" right="MaryAnn Kaberry" />
+        <LineItem
+          left="Special Musical Number"
+          middle="Come, Lord Jesus"
+          right="DJ Gates"
+        />
 
         {
           /*
-        <LineItem left="Speaker" right="Hunter Reynolds" />
-        <LineItem left="Speaker" right="Jennifer Andersen" />
         <LineItem
           left="Intermediate Hymn"
           middle="Standing on the Promises"
           right="1023"
           link="https://www.churchofjesuschrist.org/media/music/songs/standing-on-the-promises?lang=eng"
         />
-        <LineItem left="Speaker" right="Nicholas Wallace" />
-          */
+        */
         }
 
         <LineItem
           left="Closing Hymn"
-          middle="Sing We Now at Parting"
-          right="156"
-          link="https://www.churchofjesuschrist.org/media/music/songs/sing-we-now-at-parting?lang=eng"
+          middle="I Know That My Redeemer Lives"
+          right="136"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-that-my-redeemer-lives?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Kelly Hardy" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
