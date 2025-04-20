@@ -19,7 +19,7 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/bethseda.jpeg"
+        src="/img/christ-resurrected.jpg"
         className="pb-4 m-auto"
         alt="jesus"
       />
@@ -62,8 +62,8 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              For Easter Sunday, there will only be sacrament meeting,
-              with no second hour to allow families to spend time together.
+              For Easter Sunday, there will only be sacrament meeting, with no
+              second hour to allow families to spend time together.
             </li>
             {
               /*

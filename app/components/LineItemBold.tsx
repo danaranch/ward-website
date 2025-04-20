@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC } from "react";
 
 interface LineItemProps {
   middle: string;
@@ -6,10 +6,10 @@ interface LineItemProps {
 
 const LineItem: FC<LineItemProps> = ({ middle }) => {
   return (
-    <div className="text-center py-4">
-          <em className="font-semibold text-lg">
-            {middle}
-          </em>
+    <div className="text-center py-8 rounded bg-sky-100">
+      <em className="font-semibold text-lg">
+        {middle}
+      </em>
     </div>
   );
 };

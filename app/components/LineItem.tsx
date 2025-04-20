@@ -1,5 +1,4 @@
-
-import { FC } from 'react';
+import { FC } from "react";
 
 interface LineItemProps {
   left: string;
@@ -9,8 +8,16 @@ interface LineItemProps {
 }
 
 const LineItem: FC<LineItemProps> = ({ left, middle, right, link }) => {
+  const spacing = (
+      left.toLowerCase() === "presiding" ||
+      left.toLowerCase() === "conducting" ||
+      left.toLowerCase() === "organist" ||
+      left.toLowerCase() === "chorister"
+    )
+    ? 1
+    : 4;
   const content = (
-    <div className="py-1">
+    <div className={`py-${spacing}`}>
       <div className="flex">
         <div className="flex-none px-1">{left}</div>
         <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
@@ -19,19 +26,20 @@ const LineItem: FC<LineItemProps> = ({ left, middle, right, link }) => {
       </div>
       {middle && (
         <div className="text-center font-sm truncate zero-auto max-75">
-          <div className="italic" dangerouslySetInnerHTML={{ __html: middle }}></div>
+          <div className="italic" dangerouslySetInnerHTML={{ __html: middle }}>
+          </div>
         </div>
       )}
     </div>
   );
 
-  return link ? (
-    <a href={link} className="block">
-      {content}
-    </a>
-  ) : (
-    content
-  );
+  return link
+    ? (
+      <a href={link} className="block">
+        {content}
+      </a>
+    )
+    : content;
 };
 
 export default LineItem;
