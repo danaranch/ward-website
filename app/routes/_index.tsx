@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import ActionButton from "~/components/ActionButton";
 import LineItem from "~/components/LineItem";
+import LineItemLeadership from "~/components/LineItemLeadership";
 import LineItemBold from "~/components/LineItemBold";
 
 export const meta: MetaFunction = () => {
@@ -48,10 +49,10 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItem left="Presiding" right="Bishop Shumway" />
-        <LineItem left="Conducting" right="Chase Roberts" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
+        <LineItemLeadership left="Conducting" right="Chase Roberts" />
+        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
+        <LineItemLeadership left="Chorister" right="Joe Capps" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
