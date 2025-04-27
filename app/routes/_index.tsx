@@ -32,7 +32,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">April 20, 2025</p>
+        <p className="text-2xl">April 27, 2025</p>
       </div>
 
       {
@@ -51,8 +51,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Chase Roberts" />
-        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
-        <LineItemLeadership left="Chorister" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Myrna Johnson" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -63,18 +63,10 @@ export default function Index() {
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              For Easter Sunday, there will only be sacrament meeting, with no
-              second hour to allow families to spend time together.
-            </li>
-            {
-              /*
-            <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway's home on the third Sunday
               of each month from 7:00-8:30 pm.
             </li>
-            */
-            }
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
@@ -84,19 +76,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Christ the Lord Is Risen Today"
-          right="200"
-          link="https://www.churchofjesuschrist.org/media/music/songs/christ-the-lord-is-risen-today?lang=eng"
+          middle="The Spirit of God"
+          right="2"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
         />
-        <LineItem left="Invocation" right="Eric Huffaker" />
+        <LineItem left="Invocation" right="Paul Kessler" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Tis Sweet to Sing the Matchless Love"
-          right="177"
-          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
+          middle="O Lord of Hosts"
+          right="178"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -107,44 +99,26 @@ export default function Index() {
           */
         }
 
-        <LineItem
-          left="Special Musical Number"
-          middle="Did Jesus Really Live Again"
-          right="Primary"
-        />
-        <LineItem left="Speaker" right="Deanne Hoover" />
-        <LineItem
-          left="Special Musical Number"
-          middle="The Miracle"
-          right="Jaxon Kent"
-        />
-        <LineItem left="Speaker" right="Duane Johnson" />
-        <LineItem
-          left="Special Musical Number"
-          middle="Gethsemane"
-          right="Williams Family"
-        />
-        <LineItem left="Speaker" right="Bishop Shumway" />
+        <LineItem left="Speaker" right="Owen Capps" />
+        <LineItem left="Speaker" right="Josh Palmer" />
 
-        {
-          /*
         <LineItem
           left="Intermediate Hymn"
-          middle="Standing on the Promises"
-          right="1023"
-          link="https://www.churchofjesuschrist.org/media/music/songs/standing-on-the-promises?lang=eng"
+          middle="Let Zion in Her Beauty Rise"
+          right="41"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-zion-in-her-beauty-rise?lang=eng"
         />
-        */
-        }
+
+        <LineItem left="Speaker" right="John Flaherty" />
 
         <LineItem
           left="Closing Hymn"
-          middle="He Is Risen"
-          right="199"
-          link="https://www.churchofjesuschrist.org/media/music/songs/he-is-risen?lang=eng"
+          middle="I Know My Father Lives"
+          right="302"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-my-father-lives?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Sydney Guimarães" />
+        <LineItem left="Benediction" right="Caitlin Jarman" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
