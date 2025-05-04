@@ -125,7 +125,7 @@ export default function Index() {
         <LineItem left="Benediction" right="Camille Better" />
       </div>
 
-      <div className="bg-sky-800 h-24 p-4 flex items-center mt-4">
+      <div className="bg-sky-600 h-24 p-4 flex items-center mt-4">
         <img
           className="h-full"
           src="/img/christus.png"
