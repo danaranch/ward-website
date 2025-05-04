@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">April 27, 2025</p>
+        <p className="text-2xl">May 4, 2025</p>
       </div>
 
       {
@@ -51,9 +51,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Chase Roberts" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Myrna Johnson" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
+        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
+        <LineItemLeadership left="Chorister" right="Joe Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -80,29 +80,27 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Spirit of God"
-          right="2"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
+          middle="Sweet Hour of Prayer"
+          right="142"
+          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-hour-of-prayer?lang=eng"
         />
-        <LineItem left="Invocation" right="Paul Kessler" />
+        <LineItem left="Invocation" right="Matt Hulse" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="O Lord of Hosts"
-          right="178"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
+          middle="Father In Heaven, We Do Believe"
+          right="180"
+          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-          */
-        }
-
         <LineItem left="Speaker" right="Owen Capps" />
         <LineItem left="Speaker" right="Josh Palmer" />
 
@@ -114,15 +112,17 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="John Flaherty" />
+          */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="I Know My Father Lives"
-          right="302"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-my-father-lives?lang=eng"
+          middle="I Need Thee Every Hour"
+          right="98"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Caitlin Jarman" />
+        <LineItem left="Benediction" right="Camille Better" />
       </div>
 
       <div className="bg-sky-800 h-24 p-4 flex items-center mt-4">
