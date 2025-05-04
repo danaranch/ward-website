@@ -3,6 +3,7 @@ import ActionButton from "~/components/ActionButton";
 import LineItem from "~/components/LineItem";
 import LineItemLeadership from "~/components/LineItemLeadership";
 import LineItemBold from "~/components/LineItemBold";
+import LightRays from "~/components/LightRays";
 
 export const meta: MetaFunction = () => {
   return [
@@ -54,16 +55,16 @@ export default function Index() {
         <LineItemLeadership left="Organist" right="Joe Capps" />
         <LineItemLeadership left="Chorister" right="Myrna Johnson" />
 
-        <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
-          <img
-            className="absolute left-0 top-0 w-full rounded opacity-75"
-            src="/img/light-rays.svg"
-            alt="light-rays"
-          />
-          <em className="sticky text-lg font-semibold">Announcements</em>
+        <div className="p-8 mt-4 rounded bg-sky-100">
+          <div className="text-center">
+            <em className="font-semibold text-lg">
+              Announcements
+            </em>
+          </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              The youth car wash and bake sale is on Saturday, May 10th from 7:30 - 11:30 AM.
+              The youth car wash and bake sale is on Saturday, May 10th from
+              7:30 - 11:30 AM.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -124,7 +125,18 @@ export default function Index() {
         <LineItem left="Benediction" right="Caitlin Jarman" />
       </div>
 
-      <hr className="h-px my-8 bg-gray-400 border-0" />
+      <div className="bg-sky-800 h-24 p-4 flex items-center mt-4">
+        <img
+          className="h-full"
+          src="/img/christus.png"
+          alt="Christ"
+          height="full"
+        />
+        <div className="ml-6 text-white font-extrabold">
+          <div>Dana Ranch Ward</div>
+          <div>Mesa Kimball Stake</div>
+        </div>
+      </div>
     </div>
   );
 }
