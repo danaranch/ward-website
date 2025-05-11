@@ -122,7 +122,7 @@ export default function Index() {
 
       {/* TODO: Abstract into footer component */}
       <div className="h-20 flex items-center justify-between mt-4 bg-neutral-100">
-        <div className="h-20 flex item-start">
+        <div className="h-20 flex justify-center item-start">
           <div className="bg-[#0ea5e9] p-2 h-full">
             <img
               className="h-full"
