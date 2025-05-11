@@ -12,7 +12,7 @@ const LineItem: FC<LineItemProps> = ({ left, middle, right, link }) => {
     <div className="py-4">
       <div className="flex">
         <div className="flex-none px-1">{left}</div>
-        <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18">
+        <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18 truncate">
         </div>
         <div className="flex-none px-1 text-right">{right}</div>
       </div>

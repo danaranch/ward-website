@@ -103,9 +103,9 @@ export default function Index() {
         <LineItem left="Speaker" right="Chris Coleman" />
 
         <LineItem
-          left="Special Musical Number"
+          left="Musical Number"
           middle="Love is Spoken Here"
-          right="Anne Flaherty and Deanne Hoover"
+          right="Anne Flaherty & Deanne Hoover"
         />
 
         <LineItem left="Speaker" right="Mike Cooley" />
