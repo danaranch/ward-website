@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">May 4, 2025</p>
+        <p className="text-2xl">May 11, 2025</p>
       </div>
 
       {
@@ -52,8 +52,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
-        <LineItemLeadership left="Chorister" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -62,10 +62,6 @@ export default function Index() {
             </em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              The youth car wash and bake sale is on Saturday, May 10th from
-              7:30 - 11:30 AM.
-            </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway's home on the third Sunday
@@ -80,49 +76,48 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Sweet Hour of Prayer"
-          right="142"
-          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-hour-of-prayer?lang=eng"
+          middle="Home Can Be a Heaven on Earth"
+          right="298"
+          link="https://www.churchofjesuschrist.org/media/music/songs/home-can-be-a-heaven-on-earth?lang=eng"
         />
-        <LineItem left="Invocation" right="Matt Hulse" />
+        <LineItem left="Invocation" right="Mike Wilhelm" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Father In Heaven, We Do Believe"
-          right="180"
-          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
+          middle="Jesus of Nazareth, Savior and King"
+          right="181"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {
           /*
-        <LineItem left="Speaker" right="Owen Capps" />
-        <LineItem left="Speaker" right="Josh Palmer" />
-
-        <LineItem
-          left="Intermediate Hymn"
-          middle="Let Zion in Her Beauty Rise"
-          right="41"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-zion-in-her-beauty-rise?lang=eng"
-        />
-
-        <LineItem left="Speaker" right="John Flaherty" />
+        <LineItemBold middle="Bearing of Testimonies" />
           */
         }
 
+        <LineItem left="Speaker" right="Damario Gough" />
+        <LineItem left="Speaker" right="Chris Coleman" />
+
         <LineItem
-          left="Closing Hymn"
-          middle="I Need Thee Every Hour"
-          right="98"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
+          left="Special Musical Number"
+          middle="Love is Spoken Here"
+          right="Anne Flaherty and Deanne Hoover"
         />
 
-        <LineItem left="Benediction" right="Camille Better" />
+        <LineItem left="Speaker" right="Mike Cooley" />
+
+        <LineItem
+          left="Closing Hymn"
+          middle="Teach Me to Walk in the Light"
+          right="304"
+          link="https://www.churchofjesuschrist.org/media/music/songs/teach-me-to-walk-in-the-light?lang=eng"
+        />
+
+        <LineItem left="Benediction" right="Duane Gunn" />
       </div>
 
       <div className="bg-sky-600 h-24 p-4 flex items-center mt-4">
