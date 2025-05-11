@@ -21,7 +21,7 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/mothers-day.jpeg"
+        src="/img/mothers-day.jpg"
         className="pb-4 m-auto"
         alt="jesus"
       />
@@ -131,7 +131,7 @@ export default function Index() {
               height="full"
             />
           </div>
-          <span className="h-full" style={{ left: -1 }}>
+          <span className="h-full relative" style={{ left: -1 }}>
             <LightRays color="#0ea5e9" />
           </span>
         </div>
