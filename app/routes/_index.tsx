@@ -131,7 +131,9 @@ export default function Index() {
               height="full"
             />
           </div>
-          <LightRays color="#0ea5e9" />
+          <span className="h-full" style={{ left: -1 }}>
+            <LightRays color="#0ea5e9" />
+          </span>
         </div>
         <div className="mr-6 text-slate-800 text-right font-extrabold">
           <div>Dana Ranch Ward</div>
