@@ -21,7 +21,7 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/christ-resurrected.jpg"
+        src="/img/mothers-day.jpeg"
         className="pb-4 m-auto"
         alt="jesus"
       />
@@ -120,14 +120,20 @@ export default function Index() {
         <LineItem left="Benediction" right="Duane Gunn" />
       </div>
 
-      <div className="bg-sky-600 h-24 p-4 flex items-center mt-4">
-        <img
-          className="h-full"
-          src="/img/christus.png"
-          alt="Christ"
-          height="full"
-        />
-        <div className="ml-6 text-white font-extrabold">
+      {/* TODO: Abstract into footer component */}
+      <div className="h-20 flex items-center justify-between mt-4 bg-neutral-100">
+        <div className="h-20 flex item-start">
+          <div className="bg-[#0ea5e9] p-2 h-full">
+            <img
+              className="h-full"
+              src="/img/christus.png"
+              alt="Christ"
+              height="full"
+            />
+          </div>
+          <LightRays color="#0ea5e9" />
+        </div>
+        <div className="mr-6 text-slate-800 text-right font-extrabold">
           <div>Dana Ranch Ward</div>
           <div>Mesa Kimball Stake</div>
         </div>
