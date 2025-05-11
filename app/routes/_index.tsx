@@ -131,7 +131,7 @@ export default function Index() {
               height="full"
             />
           </div>
-          <span className="h-full relative" style={{ left: -1 }}>
+          <span className="h-full relative" style={{ left: -1, top: -1 }}>
             <LightRays color="#0ea5e9" />
           </span>
         </div>
