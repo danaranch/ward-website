@@ -99,8 +99,7 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="By Invitation" />
-        <LineItem left="Speaker" right="By Invitation" />
+        <LineItem left="Speaker" right="Jeffrey Anderson" />
 
         <LineItem
           left="Musical Number"
@@ -109,7 +108,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
         />
 
-        <LineItem left="Speaker" right="By Invitation" />
+        <LineItem left="Speaker" right="Frank Adams" />
 
         <LineItem
           left="Closing Hymn"
