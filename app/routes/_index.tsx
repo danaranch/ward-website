@@ -21,7 +21,7 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/mothers-day.jpg"
+        src="/img/bible_films_christ_walking_disciples.jpeg"
         className="pb-4 m-auto"
         alt="jesus"
       />
@@ -135,7 +135,7 @@ export default function Index() {
             <LightRays color="#0ea5e9" />
           </span>
         </div>
-        <div className="mr-6 text-slate-800 text-right font-extrabold">
+        <div className="mr-6 text-stone-500 text-right font-extrabold">
           <div>Dana Ranch Ward</div>
           <div>Mesa Kimball Stake</div>
         </div>
