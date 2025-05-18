@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">May 11, 2025</p>
+        <p className="text-2xl">May 18, 2025</p>
       </div>
 
       {
@@ -52,8 +52,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
+        <LineItemLeadership left="Chorister" right="Joe Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -76,19 +76,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Home Can Be a Heaven on Earth"
-          right="298"
-          link="https://www.churchofjesuschrist.org/media/music/songs/home-can-be-a-heaven-on-earth?lang=eng"
+          middle="The Iron Rod"
+          right="274"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-iron-rod?lang=eng"
         />
-        <LineItem left="Invocation" right="Mike Wilhelm" />
+        <LineItem left="Invocation" right="Sandi Anderson" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus of Nazareth, Savior and King"
-          right="181"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
+          middle="We'll Sing All Hail to Jesus' Name"
+          right="182"
+          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -99,25 +99,26 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="Damario Gough" />
-        <LineItem left="Speaker" right="Chris Coleman" />
+        <LineItem left="Speaker" right="By Invitation" />
+        <LineItem left="Speaker" right="By Invitation" />
 
         <LineItem
           left="Musical Number"
-          middle="Love is Spoken Here"
-          right="Anne Flaherty & Deanne Hoover"
+          middle="How Firm a Foundation"
+          right="85"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Mike Cooley" />
+        <LineItem left="Speaker" right="By Invitation" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Teach Me to Walk in the Light"
-          right="304"
-          link="https://www.churchofjesuschrist.org/media/music/songs/teach-me-to-walk-in-the-light?lang=eng"
+          middle="Nearer, My God, to Thee"
+          right="100"
+          link="https://www.churchofjesuschrist.org/media/music/songs/nearer-my-god-to-thee?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Duane Gunn" />
+        <LineItem left="Benediction" right="Steven Ray" />
       </div>
 
       {/* TODO: Abstract into footer component */}
