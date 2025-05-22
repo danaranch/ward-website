@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">May 18, 2025</p>
+        <p className="text-2xl">May 25, 2025</p>
       </div>
 
       {
@@ -51,9 +51,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
-        <LineItemLeadership left="Chorister" right="Joe Capps" />
+        <LineItemLeadership left="Conducting" right="Chase Roberts" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Shaeli Kersee" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -76,19 +76,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Iron Rod"
-          right="274"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-iron-rod?lang=eng"
+          middle="Did You Think to Pray?"
+          right="140"
+          link="https://www.churchofjesuschrist.org/media/music/songs/did-you-think-to-pray?lang=eng"
         />
-        <LineItem left="Invocation" right="Sandi Anderson" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="We'll Sing All Hail to Jesus' Name"
-          right="182"
-          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
+          middle="In Remembrance of Thy Suffering"
+          right="183"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -103,21 +103,21 @@ export default function Index() {
 
         <LineItem
           left="Musical Number"
-          middle="How Firm a Foundation"
-          right="85"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
+          middle="Let Us All Press On"
+          right="243"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-us-all-press-on?lang=eng"
         />
 
         <LineItem left="Speaker" right="Frank Adams" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Nearer, My God, to Thee"
-          right="100"
-          link="https://www.churchofjesuschrist.org/media/music/songs/nearer-my-god-to-thee?lang=eng"
+          middle="Jesus, The Very Thought of Thee"
+          right="141"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-the-very-thought-of-thee?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Steven Ray" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
