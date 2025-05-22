@@ -99,7 +99,7 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="Jeffrey Anderson" />
+        <LineItem left="Speaker" right="Jayna Hulse" />
 
         <LineItem
           left="Musical Number"
@@ -108,7 +108,8 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/let-us-all-press-on?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Frank Adams" />
+        <LineItem left="Speaker" right="Jeremy Hoover" />
+        <LineItem left="Speaker" right="Kelly Hardy" />
 
         <LineItem
           left="Closing Hymn"
