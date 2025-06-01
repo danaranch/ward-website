@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">May 25, 2025</p>
+        <p className="text-2xl">June 1, 2025</p>
       </div>
 
       {
@@ -51,9 +51,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Chase Roberts" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Shaeli Kersee" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
+        <LineItemLeadership left="Chorister" right="Joe Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -76,29 +76,27 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Did You Think to Pray?"
-          right="140"
-          link="https://www.churchofjesuschrist.org/media/music/songs/did-you-think-to-pray?lang=eng"
+          middle="Come, Sing to the Lord"
+          right="10"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-sing-to-the-lord?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Louis Johnson" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Remembrance of Thy Suffering"
-          right="183"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
+          middle="Reverently and Meekly Now"
+          right="185"
+          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-          */
-        }
-
         <LineItem left="Speaker" right="Jayna Hulse" />
 
         <LineItem
@@ -110,15 +108,17 @@ export default function Index() {
 
         <LineItem left="Speaker" right="Jeremy Hoover" />
         <LineItem left="Speaker" right="Kelly Hardy" />
+          */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="Jesus, The Very Thought of Thee"
-          right="141"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-the-very-thought-of-thee?lang=eng"
+          middle="I Am a Child of God"
+          right="301"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Sabrina Hulse" />
       </div>
 
       {/* TODO: Abstract into footer component */}
