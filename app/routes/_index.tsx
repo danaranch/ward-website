@@ -63,6 +63,9 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              Next week, June 7-8, is Stake Conference. The general session is at 10 AM.
+            </li>
+            <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway's home on the third Sunday
               of each month from 7:00-8:30 pm.
