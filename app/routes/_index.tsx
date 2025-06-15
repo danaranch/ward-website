@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">June 1, 2025</p>
+        <p className="text-2xl">June 14, 2025</p>
       </div>
 
       {
@@ -63,7 +63,7 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Next week, June 7-8, is Stake Conference. The general session is at 10 AM.
+              The Dana Ranch Ward is responsible for cleaning the church building from June to August.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -79,49 +79,48 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Sing to the Lord"
-          right="10"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-sing-to-the-lord?lang=eng"
+          middle="Come Thou Fount of Every Blessing"
+          right="1001"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-thou-fount-of-every-blessing?lang=eng"
         />
-        <LineItem left="Invocation" right="Louis Johnson" />
+        <LineItem left="Invocation" right="Melissa Murray" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Reverently and Meekly Now"
-          right="185"
-          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
+          middle="I Stand All Amazed"
+          right="193"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-stand-all-amazed?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {
           /*
-        <LineItem left="Speaker" right="Jayna Hulse" />
-
-        <LineItem
-          left="Musical Number"
-          middle="Let Us All Press On"
-          right="243"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-us-all-press-on?lang=eng"
-        />
-
-        <LineItem left="Speaker" right="Jeremy Hoover" />
-        <LineItem left="Speaker" right="Kelly Hardy" />
+        <LineItemBold middle="Bearing of Testimonies" />
           */
         }
 
+        <LineItem left="Speaker" right="Dolly Huffaker" />
+
         <LineItem
-          left="Closing Hymn"
-          middle="I Am a Child of God"
-          right="301"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
+          left="Musical Number"
+          middle="Daddy's Homecoming"
+          right="Primary"
         />
 
-        <LineItem left="Benediction" right="Sabrina Hulse" />
+        <LineItem left="Speaker" right="Whitney Kolstad" />
+        <LineItem left="Speaker" right="David Kolstad" />
+
+        <LineItem
+          left="Closing Hymn"
+          middle="I'll Go Where You Want Me to Go"
+          right="270"
+          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
+        />
+
+        <LineItem left="Benediction" right="MaryAnn Kaberry" />
       </div>
 
       {/* TODO: Abstract into footer component */}
