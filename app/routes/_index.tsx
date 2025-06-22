@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">June 14, 2025</p>
+        <p className="text-2xl">June 22, 2025</p>
       </div>
 
       {
@@ -52,8 +52,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Whitney Kolstad" />
-        <LineItemLeadership left="Chorister" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -79,19 +79,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come Thou Fount of Every Blessing"
-          right="1001"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-thou-fount-of-every-blessing?lang=eng"
+          middle="Israel, Israel, God is Calling"
+          right="7"
+          link="https://www.churchofjesuschrist.org/media/music/songs/israel-israel-god-is-calling?lang=eng"
         />
-        <LineItem left="Invocation" right="Melissa Murray" />
+        <LineItem left="Invocation" right="Jim Stewart" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="I Stand All Amazed"
-          right="193"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-stand-all-amazed?lang=eng"
+          middle="God Loved Us, So He Sent His Son"
+          right="187"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-loved-us-so-he-sent-his-son?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -102,25 +102,26 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="Dolly Huffaker" />
+        <LineItem left="Speaker" right="Deborah Sloan" />
 
         <LineItem
-          left="Musical Number"
-          middle="Daddy's Homecoming"
-          right="Primary"
+          left="Intermediate Hymn"
+          middle="Hope of Israel"
+          right="259"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hope-of-israel?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Whitney Kolstad" />
-        <LineItem left="Speaker" right="David Kolstad" />
+        <LineItem left="Speaker" right="Ashlee Gray" />
+        <LineItem left="Speaker" right="Logan Young" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I'll Go Where You Want Me to Go"
-          right="270"
-          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
+          middle="It Is Well with My Soul"
+          right="1003"
+          link="https://www.churchofjesuschrist.org/media/music/songs/it-is-well-with-my-soul?lang=eng"
         />
 
-        <LineItem left="Benediction" right="MaryAnn Kaberry" />
+        <LineItem left="Benediction" right="Derek Sloan" />
       </div>
 
       {/* TODO: Abstract into footer component */}
