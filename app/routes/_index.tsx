@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">June 22, 2025</p>
+        <p className="text-2xl">June 29, 2025</p>
       </div>
 
       {
@@ -53,7 +53,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -79,19 +79,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Israel, Israel, God is Calling"
-          right="7"
-          link="https://www.churchofjesuschrist.org/media/music/songs/israel-israel-god-is-calling?lang=eng"
+          middle="Put Your Shoulder to the Wheel"
+          right="252"
+          link="https://www.churchofjesuschrist.org/media/music/songs/put-your-shoulder-to-the-wheel?lang=eng"
         />
-        <LineItem left="Invocation" right="Jim Stewart" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God Loved Us, So He Sent His Son"
-          right="187"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-loved-us-so-he-sent-his-son?lang=eng"
+          middle="Thy Will, O Lord, Be Done"
+          right="188"
+          link="https://www.churchofjesuschrist.org/media/music/songs/thy-will-o-lord-be-done?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -102,26 +102,26 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="Deborah Sloan" />
+        <LineItem left="Speaker" right="Rockwell Bellessa" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Hope of Israel"
-          right="259"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hope-of-israel?lang=eng"
+          middle="Hark All Ye Nations!"
+          right="264"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Ashlee Gray" />
-        <LineItem left="Speaker" right="Logan Young" />
+        <LineItem left="Speaker" right="Timothy Cronin" />
+        <LineItem left="Speaker" right="Aileen Speakman" />
 
         <LineItem
           left="Closing Hymn"
-          middle="It Is Well with My Soul"
-          right="1003"
-          link="https://www.churchofjesuschrist.org/media/music/songs/it-is-well-with-my-soul?lang=eng"
+          middle="America the Beautiful"
+          right="338"
+          link="https://www.churchofjesuschrist.org/media/music/songs/america-the-beautiful?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Derek Sloan" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
