@@ -63,6 +63,9 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              Join us for a Stake Single Adults evening of pickle ball, games, and pizza. Bring your own drinks. When and Where: Tuesday July 8, we will start at 5:00 pm in the Stake cultural hall, and will have the young women's room at 7:00 pm. Come and bring a friend!
+            </li>
+            <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the church building from June to August.
             </li>
             <li className="pt-1">
