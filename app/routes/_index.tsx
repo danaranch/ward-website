@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">June 29, 2025</p>
+        <p className="text-2xl">July 6, 2025</p>
       </div>
 
       {
@@ -51,9 +51,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Conducting" right="Chase Roberts" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
+        <LineItemLeadership left="Chorister" right="Violet Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -82,9 +82,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Put Your Shoulder to the Wheel"
-          right="252"
-          link="https://www.churchofjesuschrist.org/media/music/songs/put-your-shoulder-to-the-wheel?lang=eng"
+          middle="My Country, 'Tis of Thee"
+          right="339"
+          link="https://www.churchofjesuschrist.org/media/music/songs/my-country-tis-of-thee?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -92,19 +92,17 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Thy Will, O Lord, Be Done"
-          right="188"
-          link="https://www.churchofjesuschrist.org/media/music/songs/thy-will-o-lord-be-done?lang=eng"
+          middle="In Memory of the Crucified"
+          right="190"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-memory-of-the-crucified?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
         {
           /*
-        <LineItemBold middle="Bearing of Testimonies" />
-          */
-        }
-
         <LineItem left="Speaker" right="Rockwell Bellessa" />
 
         <LineItem
@@ -116,12 +114,14 @@ export default function Index() {
 
         <LineItem left="Speaker" right="Timothy Cronin" />
         <LineItem left="Speaker" right="Aileen Speakman" />
+          */
+        }
 
         <LineItem
           left="Closing Hymn"
-          middle="America the Beautiful"
-          right="338"
-          link="https://www.churchofjesuschrist.org/media/music/songs/america-the-beautiful?lang=eng"
+          middle="Lead Kindly Light"
+          right="97"
+          link="https://www.churchofjesuschrist.org/media/music/songs/lead-kindly-light?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
