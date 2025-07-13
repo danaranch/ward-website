@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">July 6, 2025</p>
+        <p className="text-2xl">July 13, 2025</p>
       </div>
 
       {
@@ -53,7 +53,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Chase Roberts" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Violet Capps" />
+        <LineItemLeadership left="Chorister" right="Cindy Fast" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -62,9 +62,6 @@ export default function Index() {
             </em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              Join us for a Stake Single Adults evening of pickle ball, games, and pizza. Bring your own drinks. When and Where: Tuesday July 8, we will start at 5:00 pm in the Stake cultural hall, and will have the young women's room at 7:00 pm. Come and bring a friend!
-            </li>
             <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the church building from June to August.
             </li>
@@ -82,49 +79,49 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="My Country, 'Tis of Thee"
-          right="339"
-          link="https://www.churchofjesuschrist.org/media/music/songs/my-country-tis-of-thee?lang=eng"
+          middle="High on the Mountain Top"
+          right="5"
+          link="https://www.churchofjesuschrist.org/media/music/songs/high-on-the-mountain-top?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Andrew Jarman" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Memory of the Crucified"
-          right="190"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-memory-of-the-crucified?lang=eng"
+          middle="Behold the Great Redeemer Died"
+          right="191"
+          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-died?lang=eng"
         />
-
-        <LineItemBold middle="Administration of the Sacrament" />
-
-        <LineItemBold middle="Bearing of Testimonies" />
 
         {
           /*
-        <LineItem left="Speaker" right="Rockwell Bellessa" />
+        <LineItemBold middle="Administration of the Sacrament" />
+
+        <LineItemBold middle="Bearing of Testimonies" />
+        */
+        }
+
+        <LineItem left="Speaker" right="Tracker Reynolds" />
+        <LineItem left="Speaker" right="Danielle Cornia" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Hark All Ye Nations!"
-          right="264"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
+          middle="Go Forth with Faith"
+          right="263"
+          link="https://www.churchofjesuschrist.org/media/music/songs/go-forth-with-faith?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Timothy Cronin" />
-        <LineItem left="Speaker" right="Aileen Speakman" />
-          */
-        }
+        <LineItem left="Speaker" right="Joy Kessler" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Lead Kindly Light"
-          right="97"
-          link="https://www.churchofjesuschrist.org/media/music/songs/lead-kindly-light?lang=eng"
+          middle="It Is Well with My Soul"
+          right="1003"
+          link="https://www.churchofjesuschrist.org/media/music/songs/it-is-well-with-my-soul?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Mike Clement" />
       </div>
 
       {/* TODO: Abstract into footer component */}
