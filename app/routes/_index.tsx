@@ -89,9 +89,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold the Great Redeemer Died"
+          middle="Behold the Great Redeemer Die"
           right="191"
-          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-died?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-die?lang=eng"
         />
 
         {
