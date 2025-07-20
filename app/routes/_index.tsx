@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">July 13, 2025</p>
+        <p className="text-2xl">July 20, 2025</p>
       </div>
 
       {
@@ -53,7 +53,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Chase Roberts" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Cindy Fast" />
+        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -79,19 +79,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="High on the Mountain Top"
-          right="5"
-          link="https://www.churchofjesuschrist.org/media/music/songs/high-on-the-mountain-top?lang=eng"
+          middle="They, The Builders of the Nation"
+          right="36"
+          link="https://www.churchofjesuschrist.org/media/music/songs/they-the-builders-of-the-nation?lang=eng"
         />
-        <LineItem left="Invocation" right="Andrew Jarman" />
+        <LineItem left="Invocation" right="Mike Cooley" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold the Great Redeemer Die"
-          right="191"
-          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-die?lang=eng"
+          middle="He Died! The Great Redeemer Died!"
+          right="192"
+          link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
         />
 
         {
@@ -102,26 +102,25 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Tracker Reynolds" />
-        <LineItem left="Speaker" right="Danielle Cornia" />
+        <LineItem left="Speaker" right="Dave Bradshaw" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Go Forth with Faith"
-          right="263"
-          link="https://www.churchofjesuschrist.org/media/music/songs/go-forth-with-faith?lang=eng"
+          middle="Come Ye Children of the Lord"
+          right="58"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-children-of-the-lord?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Joy Kessler" />
+        <LineItem left="Speaker" right="Chaz Owensby" />
 
         <LineItem
           left="Closing Hymn"
-          middle="It Is Well with My Soul"
-          right="1003"
-          link="https://www.churchofjesuschrist.org/media/music/songs/it-is-well-with-my-soul?lang=eng"
+          middle="Come, Come, Ye Saints"
+          right="30"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-come-ye-saints?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Mike Clement" />
+        <LineItem left="Benediction" right="Elizabeth Kasl" />
       </div>
 
       {/* TODO: Abstract into footer component */}
