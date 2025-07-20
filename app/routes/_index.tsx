@@ -89,7 +89,7 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="He Died! The Great Redeemer Died!"
+          middle="He Died! The Great Redeemer Died"
           right="192"
           link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
         />
@@ -106,7 +106,7 @@ export default function Index() {
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Come Ye Children of the Lord"
+          middle="Come, Ye Children of the Lord"
           right="58"
           link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-children-of-the-lord?lang=eng"
         />
