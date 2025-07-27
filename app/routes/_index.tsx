@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">July 20, 2025</p>
+        <p className="text-2xl">July 27, 2025</p>
       </div>
 
       {
@@ -53,7 +53,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Chase Roberts" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -62,6 +62,9 @@ export default function Index() {
             </em>
           </div>
           <ol className="list-decimal ml-5 sticky">
+            <li className="pt-1">
+              Please check the Lost and Found by the library. All remaining items will be donated on August 15.
+            </li>
             <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the church building from June to August.
             </li>
@@ -79,19 +82,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="They, The Builders of the Nation"
-          right="36"
-          link="https://www.churchofjesuschrist.org/media/music/songs/they-the-builders-of-the-nation?lang=eng"
+          middle="Rock of Ages"
+          right="111"
+          link="https://www.churchofjesuschrist.org/media/music/songs/rock-of-ages?lang=eng"
         />
-        <LineItem left="Invocation" right="Mike Cooley" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="He Died! The Great Redeemer Died"
-          right="192"
-          link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
+          middle="There is a Green Hill Far Away"
+          right="194"
+          link="https://www.churchofjesuschrist.org/media/music/songs/there-is-a-green-hill-far-away?lang=eng"
         />
 
         {
@@ -102,25 +105,26 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Speaker" right="Dave Bradshaw" />
+        <LineItem left="Speaker" right="Rad Huffaker" />
+        <LineItem left="Speaker" right="Sydney Guimarães" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Come, Ye Children of the Lord"
-          right="58"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-children-of-the-lord?lang=eng"
+          middle="Praise to the Man"
+          right="27"
+          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Chaz Owensby" />
+        <LineItem left="Speaker" right="Fabio Guimarães" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Come, Come, Ye Saints"
-          right="30"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-come-ye-saints?lang=eng"
+          middle="Sweet is the Work"
+          right="147"
+          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-is-the-work?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Elizabeth Kasl" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
