@@ -36,11 +36,9 @@ export default function Index() {
         <p className="text-2xl">July 27, 2025</p>
       </div>
 
-      {
-        /*
+      {/*
       TODO: Remove component from index when we get posters for foyer
-      */
-      }
+      */}
       <div className="pt-4">
         <ActionButton
           link="https://zoom.us/j/98508434243"
@@ -57,16 +55,16 @@ export default function Index() {
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
-            <em className="font-semibold text-lg">
-              Announcements
-            </em>
+            <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Please check the Lost and Found by the library. All remaining items will be donated on August 15.
+              Please check the Lost and Found by the library. All remaining
+              items will be donated on August 15.
             </li>
             <li className="pt-1">
-              The Dana Ranch Ward is responsible for cleaning the church building from June to August.
+              The Dana Ranch Ward is responsible for cleaning the church
+              building from June to August.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -97,13 +95,11 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/there-is-a-green-hill-far-away?lang=eng"
         />
 
-        {
-          /*
+        {/*
         <LineItemBold middle="Administration of the Sacrament" />
 
         <LineItemBold middle="Bearing of Testimonies" />
-        */
-        }
+        */}
 
         <LineItem left="Speaker" right="Rad Huffaker" />
         <LineItem left="Speaker" right="Sydney Guimarães" />
@@ -124,7 +120,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/sweet-is-the-work?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Dee Kersee" />
+        <LineItem left="Benediction" right="D Kersee" />
       </div>
 
       {/* TODO: Abstract into footer component */}
