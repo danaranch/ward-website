@@ -86,7 +86,7 @@ export default function Index() {
           right="111"
           link="https://www.churchofjesuschrist.org/media/music/songs/rock-of-ages?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Joel Kasl" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -124,7 +124,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/sweet-is-the-work?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Dee Kersee" />
       </div>
 
       {/* TODO: Abstract into footer component */}
