@@ -59,6 +59,10 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              Seminary Social at Jake's Unlimited (1830 E Baseline Rd) on Saturday,
+              August 9 from 9-11 AM. Anyone 14+ is invited.
+            </li>
+            <li className="pt-1">
               Please check the Lost and Found by the library. All remaining
               items will be donated on August 15.
             </li>
