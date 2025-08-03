@@ -67,6 +67,11 @@ export default function Index() {
               building from June to August.
             </li>
             <li className="pt-1">
+              Please see the Order of Service's e-mail for Missionary Meal signups,
+              or the backup signup to be passed around during second hour (online
+              signup preferred).
+            </li>
+            <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway's home on the third Sunday
               of each month from 7:00-8:30 pm.
