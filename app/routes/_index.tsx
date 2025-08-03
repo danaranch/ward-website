@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">July 27, 2025</p>
+        <p className="text-2xl">August 3, 2025</p>
       </div>
 
       {/*
@@ -51,7 +51,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Chase Roberts" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -80,27 +80,26 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Rock of Ages"
-          right="111"
-          link="https://www.churchofjesuschrist.org/media/music/songs/rock-of-ages?lang=eng"
+          middle="Come, O Thou King of Kings"
+          right="59"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng"
         />
-        <LineItem left="Invocation" right="Joel Kasl" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="There is a Green Hill Far Away"
-          right="194"
-          link="https://www.churchofjesuschrist.org/media/music/songs/there-is-a-green-hill-far-away?lang=eng"
+          middle="How Great the Wisdom and the Love"
+          right="195"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
         />
 
-        {/*
         <LineItemBold middle="Administration of the Sacrament" />
 
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Rad Huffaker" />
         <LineItem left="Speaker" right="Sydney Guimarães" />
 
@@ -112,15 +111,16 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="Fabio Guimarães" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Sweet is the Work"
-          right="147"
-          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-is-the-work?lang=eng"
+          middle="Come, Follow Me"
+          right="116"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-follow-me?lang=eng"
         />
 
-        <LineItem left="Benediction" right="D Kersee" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
