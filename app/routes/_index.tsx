@@ -51,7 +51,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Chase Roberts" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -59,8 +59,10 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Seminary Social at Jake's Unlimited (1830 E Baseline Rd) on Saturday,
-              August 9 from 9-11 AM. Anyone 14+ is invited.
+              There will be a "Why I Believe Fireside" tonight (August 10) hosted by the Arizona Mesa Mission and the Red Mountain Stake.
+              There, recent converts will share their testimonies of Jesus Christ.
+              We invite you to come and bring your friends who may want to learn more about the gospel.
+              The fireside begins at 7:00 PM and will be held at the Red Mountain Stake Center, 1430 North Recker Road, Mesa.
             </li>
             <li className="pt-1">
               Please check the Lost and Found by the library. All remaining
@@ -89,9 +91,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, O Thou King of Kings"
-          right="59"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng"
+          middle="Gently Raise the Sacred Strain"
+          right="146"
+          link="https://www.churchofjesuschrist.org/media/music/songs/gently-raise-the-sacred-strain?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -99,34 +101,34 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="How Great the Wisdom and the Love"
-          right="195"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
+          middle="Jesus, Once of Humble Birth"
+          right="196"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Rad Huffaker" />
-        <LineItem left="Speaker" right="Sydney Guimarães" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Scarlet Hoover" />
+        <LineItem left="Speaker" right="Paden Gray" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Praise to the Man"
-          right="27"
-          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng"
+          middle="Choose the Right"
+          right="239"
+          link="https://www.churchofjesuschrist.org/media/music/songs/choose-the-right?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Fabio Guimarães" />
-        */}
+        <LineItem left="Speaker" right="Melody Williams" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Come, Follow Me"
-          right="116"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-follow-me?lang=eng"
+          middle="More Holiness Give Me"
+          right="131"
+          link="https://www.churchofjesuschrist.org/media/music/songs/more-holiness-give-me?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
