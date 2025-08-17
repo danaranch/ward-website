@@ -49,25 +49,15 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Chase Roberts" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              There will be a "Why I Believe Fireside" tonight (August 10) hosted by the Arizona Mesa Mission and the Red Mountain Stake.
-              There, recent converts will share their testimonies of Jesus Christ.
-              We invite you to come and bring your friends who may want to learn more about the gospel.
-              The fireside begins at 7:00 PM and will be held at the Red Mountain Stake Center, 1430 North Recker Road, Mesa.
-            </li>
-            <li className="pt-1">
-              Please check the Lost and Found by the library. All remaining
-              items will be donated on August 15.
-            </li>
             <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the church
               building from June to August.
@@ -91,19 +81,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Gently Raise the Sacred Strain"
-          right="146"
-          link="https://www.churchofjesuschrist.org/media/music/songs/gently-raise-the-sacred-strain?lang=eng"
+          middle="Improve the Shining Moments"
+          right="226"
+          link="https://www.churchofjesuschrist.org/media/music/songs/improve-the-shining-moments?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Chris Cooley" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus, Once of Humble Birth"
-          right="196"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
+          middle="As Now We Take the Sacrament"
+          right="169"
+          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -112,26 +102,26 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Scarlet Hoover" />
-        <LineItem left="Speaker" right="Paden Gray" />
+        <LineItem left="Speaker" right="Lundun Osborn" />
+        <LineItem left="Speaker" right="Kim Huffaker" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Choose the Right"
-          right="239"
-          link="https://www.churchofjesuschrist.org/media/music/songs/choose-the-right?lang=eng"
+          middle="Redeemer of Israel"
+          right="6"
+          link="https://www.churchofjesuschrist.org/media/music/songs/redeemer-of-israel?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Melody Williams" />
+        <LineItem left="Speaker" right="Gary Hakes" />
 
         <LineItem
           left="Closing Hymn"
-          middle="More Holiness Give Me"
-          right="131"
-          link="https://www.churchofjesuschrist.org/media/music/songs/more-holiness-give-me?lang=eng"
+          middle="Where Can I Turn For Peace?"
+          right="129"
+          link="https://www.churchofjesuschrist.org/media/music/songs/where-can-i-turn-for-peace?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Helga Goff" />
       </div>
 
       {/* TODO: Abstract into footer component */}
