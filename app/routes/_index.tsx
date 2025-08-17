@@ -102,7 +102,7 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Lundun Osborn" />
+        <LineItem left="Speaker" right="Lundon Osborn" />
         <LineItem left="Speaker" right="Kim Huffaker" />
 
         <LineItem
