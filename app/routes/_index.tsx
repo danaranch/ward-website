@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">August 3, 2025</p>
+        <p className="text-2xl">August 24, 2025</p>
       </div>
 
       {/*
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -59,8 +59,8 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              The Dana Ranch Ward is responsible for cleaning the church
-              building from June to August.
+              This is the final week the Dana Ranch Ward is responsible
+              for cleaning the church.
             </li>
             <li className="pt-1">
               Please see the Order of Service's e-mail for Missionary Meal signups,
@@ -81,19 +81,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Improve the Shining Moments"
-          right="226"
-          link="https://www.churchofjesuschrist.org/media/music/songs/improve-the-shining-moments?lang=eng"
+          middle="God Speed the Right"
+          right="106"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-speed-the-right?lang=eng"
         />
-        <LineItem left="Invocation" right="Chris Cooley" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="As Now We Take the Sacrament"
-          right="169"
-          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
+          middle="God, Our Father, Hear Us Pray"
+          right="170"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -102,26 +102,26 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Lundon Osborn" />
-        <LineItem left="Speaker" right="Kim Huffaker" />
+        <LineItem left="Speaker" right="Wyatt Downs" />
+        <LineItem left="Speaker" right="Mackenzie Young" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Redeemer of Israel"
-          right="6"
-          link="https://www.churchofjesuschrist.org/media/music/songs/redeemer-of-israel?lang=eng"
+          middle="Have I Done Any Good?"
+          right="223"
+          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Gary Hakes" />
+        <LineItem left="Speaker" right="Julie Clement" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Where Can I Turn For Peace?"
-          right="129"
-          link="https://www.churchofjesuschrist.org/media/music/songs/where-can-i-turn-for-peace?lang=eng"
+          middle="The Lord Is My Shepherd"
+          right="108"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-lord-is-my-shepherd?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Helga Goff" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
