@@ -85,7 +85,7 @@ export default function Index() {
           right="106"
           link="https://www.churchofjesuschrist.org/media/music/songs/god-speed-the-right?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Rachael Downs" />
 
         <LineItemBold middle="Ward Business" />
 
@@ -121,7 +121,7 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/the-lord-is-my-shepherd?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="David Malone" />
       </div>
 
       {/* TODO: Abstract into footer component */}
