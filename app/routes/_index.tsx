@@ -102,9 +102,10 @@ export default function Index() {
         <LineItem left="Speaker" right="Kylin Hardy" />
 
         <LineItem
-          left="Intermediate Hymn"
+          left="Special Musical Number"
           middle="Called to Serve"
           right="Priest Quorum"
+          link="https://www.churchofjesuschrist.org/media/music/songs/called-to-serve?lang=eng"
         />
 
         <LineItem left="Speaker" right="Brandon Kent" />
