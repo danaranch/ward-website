@@ -51,17 +51,13 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              This is the final week the Dana Ranch Ward is responsible
-              for cleaning the church.
-            </li>
             <li className="pt-1">
               Please see the Order of Service's e-mail for Missionary Meal signups,
               or the backup signup to be passed around during second hour (online
@@ -81,19 +77,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="God Speed the Right"
-          right="106"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-speed-the-right?lang=eng"
+          middle="Now Let Us Rejoice"
+          right="3"
+          link="https://www.churchofjesuschrist.org/media/music/songs/now-let-us-rejoice?lang=eng"
         />
-        <LineItem left="Invocation" right="Rachael Downs" />
+        <LineItem left="Invocation" right="Kyle Huffaker" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God, Our Father, Hear Us Pray"
-          right="170"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
+          middle="With Humble Heart"
+          right="171"
+          link="https://www.churchofjesuschrist.org/media/music/songs/with-humble-heart?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -103,25 +99,25 @@ export default function Index() {
         */}
 
         
-        <LineItem left="Speaker" right="Mackenzie Young" />
+        <LineItem left="Speaker" right="Kylin Hardy" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Have I Done Any Good?"
-          right="223"
-          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
+          middle="Called to Serve"
+          right="Priest Quorum"
         />
 
-        <LineItem left="Speaker" right="Julie Clement" />
+        <LineItem left="Speaker" right="Brandon Kent" />
+        <LineItem left="Speaker" right="Aiden Kaberry" />
 
         <LineItem
           left="Closing Hymn"
-          middle="The Lord Is My Shepherd"
-          right="108"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-lord-is-my-shepherd?lang=eng"
+          middle="A Child's Prayer"
+          right="12"
+          link="https://www.churchofjesuschrist.org/media/music/songs/a-childs-prayer?lang=eng"
         />
 
-        <LineItem left="Benediction" right="David Malone" />
+        <LineItem left="Benediction" right="Chris Cooley" />
       </div>
 
       {/* TODO: Abstract into footer component */}
