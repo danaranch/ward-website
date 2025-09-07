@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">August 24, 2025</p>
+        <p className="text-2xl">September 7, 2025</p>
       </div>
 
       {/*
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Joe Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -59,9 +59,20 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              The Primary Program will be held on September 21.
+            </li>
+            <li className="pt-1">
+              Tithing Declaration signup is open. Please see the e-mail for the link.
+              If you are not getting the Order of Service e-mail, please contact
+              Nicholas Wallace.
+            </li>
+            <li className="pt-1">
               Please see the Order of Service's e-mail for Missionary Meal signups,
               or the backup signup to be passed around during second hour (online
               signup preferred).
+            </li>
+            <li className="pt-1">
+              The Stake 9/11 Service Project is this Saturday, September 13th from 10 AM to noon.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -77,28 +88,27 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Now Let Us Rejoice"
-          right="3"
-          link="https://www.churchofjesuschrist.org/media/music/songs/now-let-us-rejoice?lang=eng"
+          middle="Secret Prayer"
+          right="144"
+          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
         />
-        <LineItem left="Invocation" right="Kyle Huffaker" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="With Humble Heart"
-          right="171"
-          link="https://www.churchofjesuschrist.org/media/music/songs/with-humble-heart?lang=eng"
+          middle="In Humility, Our Savior"
+          right="172"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
         
+        {/*
         <LineItem left="Speaker" right="Kylin Hardy" />
 
         <LineItem
@@ -110,15 +120,16 @@ export default function Index() {
 
         <LineItem left="Speaker" right="Brandon Kent" />
         <LineItem left="Speaker" right="Aiden Kaberry" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="A Child's Prayer"
-          right="12"
-          link="https://www.churchofjesuschrist.org/media/music/songs/a-childs-prayer?lang=eng"
+          middle="Come Unto Jesus"
+          right="117"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-unto-jesus?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Chris Cooley" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
