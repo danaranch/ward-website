@@ -48,10 +48,10 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
+        <LineItemLeadership left="Presiding" right="President Sharp" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -67,12 +67,17 @@ export default function Index() {
               Nicholas Wallace.
             </li>
             <li className="pt-1">
-              Please see the Order of Service's e-mail for Missionary Meal signups,
+              Please see the Order of Services e-mail for Missionary Meal signups,
               or the backup signup to be passed around during second hour (online
-              signup preferred).
+              signup preferred). A few meals are still needed for this week.
+              We currently have 4 missionaries (2 from Dana Ranch and 2 Spanish Elders).
             </li>
             <li className="pt-1">
-              The Stake 9/11 Service Project is this Saturday, September 13th from 10 AM to noon.
+              Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
+              20 and 21 (between the Library and Bishop's office).
+            </li>
+            <li className="pt-1">
+              The Daddy-Daughter Campout is September 19-20.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -88,48 +93,53 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Secret Prayer"
-          right="144"
-          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
+          middle="Count Your Blessings"
+          right="241"
+          link="https://www.churchofjesuschrist.org/media/music/songs/count-your-blessings?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Kristen Reynolds" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Humility, Our Savior"
-          right="172"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
+          middle="While of These Emblems We Partake"
+          right="174"
+          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        {/*
         <LineItemBold middle="Bearing of Testimonies" />
+        */}
 
+        <LineItemBold middle="Ward Conference" />
         
         {/*
         <LineItem left="Speaker" right="Kylin Hardy" />
+        */}
 
         <LineItem
           left="Special Musical Number"
-          middle="Called to Serve"
-          right="Priest Quorum"
-          link="https://www.churchofjesuschrist.org/media/music/songs/called-to-serve?lang=eng"
+          middle="My Shepherd Will Supply My Need"
+          right="Capps Family"
+          link="https://www.churchofjesuschrist.org/media/music/songs/my-shepherd-will-supply-my-need?lang=eng"
         />
 
+        {/*
         <LineItem left="Speaker" right="Brandon Kent" />
         <LineItem left="Speaker" right="Aiden Kaberry" />
         */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Come Unto Jesus"
-          right="117"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-unto-jesus?lang=eng"
+          middle="Come Thou Fount of Every Blessing"
+          right="1001"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-thou-fount-of-every-blessing?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Andrew Jarman" />
       </div>
 
       {/* TODO: Abstract into footer component */}
