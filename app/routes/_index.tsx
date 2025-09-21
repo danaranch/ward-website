@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">September 7, 2025</p>
+        <p className="text-2xl">September 20, 2025</p>
       </div>
 
       {/*
@@ -48,19 +48,16 @@ export default function Index() {
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
-        <LineItemLeadership left="Presiding" right="President Sharp" />
+        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              The Primary Program will be held on September 21.
-            </li>
             <li className="pt-1">
               Tithing Declaration signup is open. Please see the e-mail for the link.
               If you are not getting the Order of Service e-mail, please contact
@@ -70,14 +67,10 @@ export default function Index() {
               Please see the Order of Services e-mail for Missionary Meal signups,
               or the backup signup to be passed around during second hour (online
               signup preferred). A few meals are still needed for this week.
-              We currently have 4 missionaries (2 from Dana Ranch and 2 Spanish Elders).
             </li>
             <li className="pt-1">
               Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
               20 and 21 (between the Library and Bishop's office).
-            </li>
-            <li className="pt-1">
-              The Daddy-Daughter Campout is September 19-20.
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -93,19 +86,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Count Your Blessings"
-          right="241"
-          link="https://www.churchofjesuschrist.org/media/music/songs/count-your-blessings?lang=eng"
+          middle="Today While the Sun Shines"
+          right="229"
+          link="https://www.churchofjesuschrist.org/media/music/songs/today-while-the-sun-shines?lang=eng"
         />
-        <LineItem left="Invocation" right="Kristen Reynolds" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="While of These Emblems We Partake"
-          right="174"
-          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake?lang=eng"
+          middle="O God, the Eternal Father"
+          right="175"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -114,11 +107,10 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItemBold middle="Ward Conference" />
+        <LineItemBold middle="Primary Program" />
         
         {/*
         <LineItem left="Speaker" right="Kylin Hardy" />
-        */}
 
         <LineItem
           left="Special Musical Number"
@@ -127,19 +119,18 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/my-shepherd-will-supply-my-need?lang=eng"
         />
 
-        {/*
         <LineItem left="Speaker" right="Brandon Kent" />
         <LineItem left="Speaker" right="Aiden Kaberry" />
         */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Come Thou Fount of Every Blessing"
-          right="1001"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-thou-fount-of-every-blessing?lang=eng"
+          middle="I Am a Child of God (join on 3rd verse)"
+          right="301"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Andrew Jarman" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
