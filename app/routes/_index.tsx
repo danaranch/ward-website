@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">September 20, 2025</p>
+        <p className="text-2xl">September 28, 2025</p>
       </div>
 
       {/*
@@ -51,7 +51,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Rhonda Capps" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -86,9 +86,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Today While the Sun Shines"
-          right="229"
-          link="https://www.churchofjesuschrist.org/media/music/songs/today-while-the-sun-shines?lang=eng"
+          middle="Hark, All Ye Nations!"
+          right="264"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -96,9 +96,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="O God, the Eternal Father"
-          right="175"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
+          middle="Tis Sweet to Sing the Matchless Love"
+          right="176"
+          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -107,27 +107,22 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItemBold middle="Primary Program" />
-        
-        {/*
-        <LineItem left="Speaker" right="Kylin Hardy" />
+        <LineItem left="Speaker" right="Holly Ashby" />
 
         <LineItem
           left="Special Musical Number"
-          middle="My Shepherd Will Supply My Need"
-          right="Capps Family"
-          link="https://www.churchofjesuschrist.org/media/music/songs/my-shepherd-will-supply-my-need?lang=eng"
+          middle="In Humility, Our Savior"
+          right="Elijah Kersee"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Brandon Kent" />
-        <LineItem left="Speaker" right="Aiden Kaberry" />
-        */}
+        <LineItem left="Speaker" right="Laurin Ashby" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Am a Child of God (join on 3rd verse)"
-          right="301"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
+          middle="Press Forward, Saints"
+          right="81"
+          link="https://www.churchofjesuschrist.org/media/music/songs/press-forward-saints?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
