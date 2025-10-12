@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">September 28, 2025</p>
+        <p className="text-2xl">October 12, 2025</p>
       </div>
 
       {/*
@@ -51,7 +51,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Shaeli Kersee" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -86,27 +86,26 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Hark, All Ye Nations!"
-          right="264"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
+          middle="We Thank Thee, O God, for a Prophet"
+          right="19"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="Sydney Kent" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Tis Sweet to Sing the Matchless Love"
-          right="176"
-          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
+          middle="O Lord of Hosts"
+          right="178"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Holly Ashby" />
 
         <LineItem
@@ -117,15 +116,16 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="Laurin Ashby" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Press Forward, Saints"
-          right="81"
-          link="https://www.churchofjesuschrist.org/media/music/songs/press-forward-saints?lang=eng"
+          middle="Keep the Commandments"
+          right="303"
+          link="https://www.churchofjesuschrist.org/media/music/songs/keep-the-commandments?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Jim Stewart" />
       </div>
 
       {/* TODO: Abstract into footer component */}
