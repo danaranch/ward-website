@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">October 12, 2025</p>
+        <p className="text-2xl">October 19, 2025</p>
       </div>
 
       {/*
@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Shaeli Kersee" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -86,46 +86,46 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="We Thank Thee, O God, for a Prophet"
-          right="19"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet?lang=eng"
+          middle="Come, Rejoice"
+          right="9"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-rejoice?lang=eng"
         />
-        <LineItem left="Invocation" right="Sydney Kent" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="O Lord of Hosts"
-          right="178"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
+          middle="Father in Heaven, We Do Believe"
+          right="180"
+          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Holly Ashby" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Liz Cornia" />
+        <LineItem left="Speaker" right="Matt Hulse" />
 
         <LineItem
           left="Special Musical Number"
-          middle="In Humility, Our Savior"
-          right="Elijah Kersee"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
+          middle="Mission Medley"
+          right="Huffaker Family"
         />
 
-        <LineItem left="Speaker" right="Laurin Ashby" />
-        */}
+        <LineItem left="Speaker" right="Nash Huffaker" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Keep the Commandments"
-          right="303"
-          link="https://www.churchofjesuschrist.org/media/music/songs/keep-the-commandments?lang=eng"
+          middle="God Be with You Till We Meet Again"
+          right="152"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-be-with-you-till-we-meet-again?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Jim Stewart" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
