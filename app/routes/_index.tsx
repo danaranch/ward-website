@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">October 19, 2025</p>
+        <p className="text-2xl">October 26, 2025</p>
       </div>
 
       {/*
@@ -51,7 +51,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -86,19 +86,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Rejoice"
-          right="9"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-rejoice?lang=eng"
+          middle="Battle Hymn of the Republic"
+          right="60"
+          link="https://www.churchofjesuschrist.org/media/music/songs/battle-hymn-of-the-republic?lang=eng"
         />
-        <LineItem left="Invocation" right="By Invitation" />
+        <LineItem left="Invocation" right="John Flaherty" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Father in Heaven, We Do Believe"
-          right="180"
-          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
+          middle="Jesus of Nazareth, Savior and King"
+          right="181"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -107,25 +107,25 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Liz Cornia" />
-        <LineItem left="Speaker" right="Matt Hulse" />
+        <LineItem left="Speaker" right="Belle Reynolds" />
+        <LineItem left="Speaker" right="Bob Bradshaw" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Mission Medley"
-          right="Huffaker Family"
+          middle="Brightly Beams our Father's Mercy"
+          right="Owen and Joe Capps"
         />
 
-        <LineItem left="Speaker" right="Nash Huffaker" />
+        <LineItem left="Speaker" right="Owen Capps" />
 
         <LineItem
           left="Closing Hymn"
-          middle="God Be with You Till We Meet Again"
-          right="152"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-be-with-you-till-we-meet-again?lang=eng"
+          middle="I'll Go Where You Want Me to Go"
+          right="270"
+          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
         />
 
-        <LineItem left="Benediction" right="By Invitation" />
+        <LineItem left="Benediction" right="Shaeli Kersee" />
       </div>
 
       {/* TODO: Abstract into footer component */}
