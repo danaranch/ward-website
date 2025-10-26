@@ -64,7 +64,7 @@ export default function Index() {
               Nicholas Wallace.
             </li>
             <li className="pt-1">
-              The Dana Ranch Ward will be cleaning the temple on October 31. https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october
+              The Dana Ranch Ward will be cleaning the temple on October 31. <a href="https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october">https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october</a>.
             </li>
             <li className="pt-1">
               Please see the Order of Services e-mail for Missionary Meal signups,
