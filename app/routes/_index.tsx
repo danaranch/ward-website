@@ -77,8 +77,8 @@ export default function Index() {
               )
             </li>
             <li className="pt-1">
-              Please see the Order of Services e-mail for Missionary Meal signups,
-              or the backup signup to be passed around during second hour
+              Missionary Meal Signup. Online signup is preferred, or see the
+              backup signup to be passed around during second hour.
               (
                 <a 
                   href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
