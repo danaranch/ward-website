@@ -68,8 +68,8 @@ export default function Index() {
             </li>
             <li className="pt-1">
               Please see the Order of Services e-mail for Missionary Meal signups,
-              or the backup signup to be passed around during second hour (online
-              signup preferred). A few meals are still needed for this week.
+              or the backup signup to be passed around during second hour (<a href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/">https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/</a>
+              ).
             </li>
             <li className="pt-1">
               Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
