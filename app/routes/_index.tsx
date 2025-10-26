@@ -64,12 +64,31 @@ export default function Index() {
               Nicholas Wallace.
             </li>
             <li className="pt-1">
-              The Dana Ranch Ward will be cleaning the temple on October 31. <a href="https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october">https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october</a>.
+              The Dana Ranch Ward will be cleaning the temple on October 31.
+              (
+              <a
+                href="https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october"
+                className="text-sky-600 hover:text-sky-800 underline break-words"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up here
+              </a>
+              )
             </li>
             <li className="pt-1">
               Please see the Order of Services e-mail for Missionary Meal signups,
-              or the backup signup to be passed around during second hour (<a href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/">https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/</a>
-              ).
+              or the backup signup to be passed around during second hour
+              (
+                <a 
+                  href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
+                  className="text-sky-600 hover:text-sky-800 underline break-words"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sign up here
+                </a>
+              )
             </li>
             <li className="pt-1">
               Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
