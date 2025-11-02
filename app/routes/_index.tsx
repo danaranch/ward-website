@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">October 26, 2025</p>
+        <p className="text-2xl">November 2, 2025</p>
       </div>
 
       {/*
@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Steven Ray" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -62,19 +62,6 @@ export default function Index() {
               Tithing Declaration signup is open. Please see the e-mail for the link.
               If you are not getting the Order of Service e-mail, please contact
               Nicholas Wallace.
-            </li>
-            <li className="pt-1">
-              The Dana Ranch Ward will be cleaning the temple on October 31.
-              (
-              <a
-                href="https://www.signupgenius.com/go/10C0545A8AE23A2FCCF8-59728311-october"
-                className="text-sky-600 hover:text-sky-800 underline break-words"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sign up here
-              </a>
-              )
             </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
@@ -91,8 +78,7 @@ export default function Index() {
               )
             </li>
             <li className="pt-1">
-              Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
-              20 and 21 (between the Library and Bishop's office).
+              No choir practice today (Fast Sunday).
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -108,27 +94,26 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Battle Hymn of the Republic"
-          right="60"
-          link="https://www.churchofjesuschrist.org/media/music/songs/battle-hymn-of-the-republic?lang=eng"
+          middle="Praise to the Lord, the Almighty"
+          right="72"
+          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-lord-the-almighty?lang=eng"
         />
-        <LineItem left="Invocation" right="John Flaherty" />
+        <LineItem left="Invocation" right="By Invitation" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus of Nazareth, Savior and King"
-          right="181"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
+          middle="We'll Sing All Hail to Jesus' Name"
+          right="182"
+          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Belle Reynolds" />
         <LineItem left="Speaker" right="Bob Bradshaw" />
 
@@ -139,15 +124,16 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="Owen Capps" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="I'll Go Where You Want Me to Go"
-          right="270"
-          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
+          middle="I Need Thee Every Hour"
+          right="98"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Shaeli Kersee" />
+        <LineItem left="Benediction" right="By Invitation" />
       </div>
 
       {/* TODO: Abstract into footer component */}
