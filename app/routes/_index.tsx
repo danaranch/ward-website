@@ -59,11 +59,6 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Tithing Declaration signup is open. Please see the e-mail for the link.
-              If you are not getting the Order of Service e-mail, please contact
-              Nicholas Wallace.
-            </li>
-            <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
               backup signup to be passed around during second hour.
               (
