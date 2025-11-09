@@ -50,14 +50,28 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Steven Ray" />
+        <LineItemLeadership left="Organist" right="Holly Ashby" />
+        <LineItemLeadership left="Chorister" right="Shaeli Kersee" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
+            <li className="pt-1">
+              There will be a youth temple trip this Tuesday, November 11th at 4:10 PM (leaving the stake center at 3:55 PM).
+            </li>
+            <li className="pt-1">
+              The funeral service for Sister Angela Kimber will be held on December 6, 2025
+              at the Stake Center (1266 S 32nd St, Mesa, AZ 85204).
+            </li>
+            <li className="pt-1">
+              There will be a "Why I Believe" Fireside hosted by the Arizona Mesa Mission and Mesa North Stake
+              tonight, November 9, at 7:00 PM. Recent converts will share their testimonies of Jesus Christ.
+              We invite you to come and bring your friends who may want to learn more about the gospel.
+              The fireside begins at 7:00 PM and will be held at the Mesa North Stake Center, 933 East Brown Road, Mesa.
+              If you have questions, reach out to your ward missionaries!
+            </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
               backup signup to be passed around during second hour.
@@ -73,7 +87,8 @@ export default function Index() {
               )
             </li>
             <li className="pt-1">
-              No choir practice today (Fast Sunday).
+              Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
+              20 and 21 (between the Library and Bishop's office).
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
@@ -89,9 +104,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Praise to the Lord, the Almighty"
-          right="72"
-          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-lord-the-almighty?lang=eng"
+          middle="Glory to God on High"
+          right="67"
+          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -99,33 +114,33 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="We'll Sing All Hail to Jesus' Name"
-          right="182"
-          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
+          middle="In Remembrance of Thy Suffering"
+          right="183"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Belle Reynolds" />
-        <LineItem left="Speaker" right="Bob Bradshaw" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Foster Hulse" />
+        <LineItem left="Speaker" right="Addie Collett" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Brightly Beams our Father's Mercy"
-          right="Owen and Joe Capps"
+          middle="When I Am Baptized"
+          right="Jane Flaherty"
         />
 
-        <LineItem left="Speaker" right="Owen Capps" />
-        */}
+        <LineItem left="Speaker" right="Shawn Williams" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Need Thee Every Hour"
-          right="98"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
+          middle="Amazing Grace"
+          right="1010"
+          link="https://www.churchofjesuschrist.org/media/music/songs/amazing-grace?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
