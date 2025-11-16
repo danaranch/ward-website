@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 9, 2025</p>
+        <p className="text-2xl">November 16, 2025</p>
       </div>
 
       {/*
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Holly Ashby" />
-        <LineItemLeadership left="Chorister" right="Shaeli Kersee" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -59,18 +59,8 @@ export default function Index() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              There will be a youth temple trip this Tuesday, November 11th at 4:10 PM (leaving the stake center at 3:55 PM).
-            </li>
-            <li className="pt-1">
               The funeral service for Sister Angela Kimber will be held on December 6, 2025
               at the Stake Center (1266 S 32nd St, Mesa, AZ 85204).
-            </li>
-            <li className="pt-1">
-              There will be a "Why I Believe" Fireside hosted by the Arizona Mesa Mission and Mesa North Stake
-              tonight, November 9, at 7:00 PM. Recent converts will share their testimonies of Jesus Christ.
-              We invite you to come and bring your friends who may want to learn more about the gospel.
-              The fireside begins at 7:00 PM and will be held at the Mesa North Stake Center, 933 East Brown Road, Mesa.
-              If you have questions, reach out to your ward missionaries!
             </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
@@ -99,14 +89,18 @@ export default function Index() {
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
             </li>
+            <li className="pt-1">
+              The Stake Turkey Trot will be on November 27th at 8:00 AM at the
+              Stake Center south parking lot.
+            </li>
           </ol>
         </div>
 
         <LineItem
           left="Opening Hymn"
-          middle="Glory to God on High"
-          right="67"
-          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
+          middle="Come, All Ye Saints of Zion"
+          right="38"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-all-ye-saints-of-zion?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -114,9 +108,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Remembrance of Thy Suffering"
-          right="183"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
+          middle="Upon the Cross of Calvary"
+          right="184"
+          link="https://www.churchofjesuschrist.org/media/music/songs/upon-the-cross-of-calvary?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -125,22 +119,21 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Foster Hulse" />
-        <LineItem left="Speaker" right="Addie Collett" />
+        <LineItem left="Speaker" right="Gove Martineau" />
 
         <LineItem
           left="Special Musical Number"
-          middle="When I Am Baptized"
-          right="Jane Flaherty"
+          middle="For the Beauty of the Earth"
+          right="Deborah Sloan"
         />
 
-        <LineItem left="Speaker" right="Shawn Williams" />
+        <LineItem left="Speaker" right="Robert Allison" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Amazing Grace"
-          right="1010"
-          link="https://www.churchofjesuschrist.org/media/music/songs/amazing-grace?lang=eng"
+          middle="Nearer, My God, to Thee"
+          right="100"
+          link="https://www.churchofjesuschrist.org/media/music/songs/nearer-my-god-to-thee?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
