@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 16, 2025</p>
+        <p className="text-2xl">November 23, 2025</p>
       </div>
 
       {/*
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -98,9 +98,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, All Ye Saints of Zion"
-          right="38"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-all-ye-saints-of-zion?lang=eng"
+          middle="Come, Ye Thankful People, Come"
+          right="94"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-thankful-people-come?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -108,9 +108,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Upon the Cross of Calvary"
-          right="184"
-          link="https://www.churchofjesuschrist.org/media/music/songs/upon-the-cross-of-calvary?lang=eng"
+          middle="Reverently and Meekly Now"
+          right="185"
+          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -119,21 +119,22 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Gove Martineau" />
+        <LineItem left="Speaker" right="Sean Anderson" />
+        <LineItem left="Speaker" right="Laurel Cronin" />
 
         <LineItem
           left="Special Musical Number"
-          middle="For the Beauty of the Earth"
-          right="Deborah Sloan"
+          middle="Bread of Life, Living Water"
+          right="Ward Choir"
         />
 
-        <LineItem left="Speaker" right="Robert Allison" />
+        <LineItem left="Speaker" right="Arick Collett" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Nearer, My God, to Thee"
-          right="100"
-          link="https://www.churchofjesuschrist.org/media/music/songs/nearer-my-god-to-thee?lang=eng"
+          middle="Because I Have Been Given Much"
+          right="219"
+          link="https://www.churchofjesuschrist.org/media/music/songs/because-i-have-been-given-much?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
