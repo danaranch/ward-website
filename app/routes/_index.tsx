@@ -76,6 +76,19 @@ export default function Index() {
                 </a>
               )
             </li>
+<li className="pt-1">
+              Temple Hosting Assignment on 29 November from 4:55pm-7:30pm. Couples to be hosts at the Mesa Temple. Couples may be husband and wife, two brothers, or two sisters. Hosts are responsible for welcoming guests, answering basic questions, inviting guests to view the nativities at the Visitor’s Center, etc. Hosts are the eyes and ears for safety. Couples should be able to stand comfortably, have strong testimonies, be adaptable, and dress in Sunday/Missionary attire.
+              (
+                <a 
+                  href="https://www.signupgenius.com/go/10C0D48A5A92EA5FBCE9-60729901-temple"
+                  className="text-sky-600 hover:text-sky-800 underline break-words"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sign up here
+                </a>
+              )
+            </li>
             <li className="pt-1">
               Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
               20 and 21 (between the Library and Bishop's office).
