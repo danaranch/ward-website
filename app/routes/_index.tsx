@@ -89,10 +89,6 @@ export default function Index() {
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
             </li>
-            <li className="pt-1">
-              The Stake Turkey Trot will be on November 27th at 8:00 AM at the
-              Stake Center south parking lot.
-            </li>
           </ol>
         </div>
 
