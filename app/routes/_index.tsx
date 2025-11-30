@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 23, 2025</p>
+        <p className="text-2xl">November 30, 2025</p>
       </div>
 
       {/*
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Kristen Reynolds" />
+        <LineItemLeadership left="Chorister" right="Haylee Hulse" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -68,19 +68,6 @@ export default function Index() {
               (
                 <a 
                   href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
-                  className="text-sky-600 hover:text-sky-800 underline break-words"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Sign up here
-                </a>
-              )
-            </li>
-<li className="pt-1">
-              Temple Hosting Assignment on 29 November from 4:55pm-7:30pm. Couples to be hosts at the Mesa Temple. Couples may be husband and wife, two brothers, or two sisters. Hosts are responsible for welcoming guests, answering basic questions, inviting guests to view the nativities at the Visitor’s Center, etc. Hosts are the eyes and ears for safety. Couples should be able to stand comfortably, have strong testimonies, be adaptable, and dress in Sunday/Missionary attire.
-              (
-                <a 
-                  href="https://www.signupgenius.com/go/10C0D48A5A92EA5FBCE9-60729901-temple"
                   className="text-sky-600 hover:text-sky-800 underline break-words"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -111,9 +98,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Ye Thankful People, Come"
-          right="94"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-thankful-people-come?lang=eng"
+          middle="Hark the Herald Angels Sing"
+          right="209"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-the-herald-angels-sing?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -121,9 +108,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Reverently and Meekly Now"
-          right="185"
-          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
+          middle="Again We Meet Around the Board"
+          right="186"
+          link="https://www.churchofjesuschrist.org/media/music/songs/again-we-meet-around-the-board?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -132,22 +119,23 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Sean Anderson" />
-        <LineItem left="Speaker" right="Laurel Cronin" />
+        <LineItem left="Speaker" right="Conrad Hoover" />
+        <LineItem left="Speaker" right="Sabrina Hulse" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Bread of Life, Living Water"
-          right="Ward Choir"
+          middle="With Wondering Awe"
+          right="210"
+          link="https://www.churchofjesuschrist.org/media/music/songs/with-wondering-awe?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Arick Collett" />
+        <LineItem left="Speaker" right="Rob Anderson" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Because I Have Been Given Much"
-          right="219"
-          link="https://www.churchofjesuschrist.org/media/music/songs/because-i-have-been-given-much?lang=eng"
+          middle="O Little Town of Bethlehem"
+          right="208"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-little-town-of-bethlehem?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
