@@ -73,6 +73,11 @@ export default function Index() {
               )
             </li>
             <li className="pt-1">
+              The Ward has reservations to perform proxy baptisms at the Mesa Temple on Saturday,
+              December 20, 2025. The convoy will need to depart the stake center parking lot by 5:15 a.m.
+              to arrive at the temple by 5:25 a.m. 
+            </li>
+            <li className="pt-1">
               Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
               20 and 21 (between the Library and Bishop's office).
             </li>
