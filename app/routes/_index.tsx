@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">November 30, 2025</p>
+        <p className="text-2xl">December 7, 2025</p>
       </div>
 
       {/*
@@ -49,19 +49,15 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Kristen Reynolds" />
-        <LineItemLeadership left="Chorister" right="Haylee Hulse" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Steven Ray" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              The funeral service for Sister Angela Kimber will be held on December 6, 2025
-              at the Stake Center (1266 S 32nd St, Mesa, AZ 85204).
-            </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
               backup signup to be passed around during second hour.
@@ -94,9 +90,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Hark the Herald Angels Sing"
-          right="209"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hark-the-herald-angels-sing?lang=eng"
+          middle="Far Far Away on Judea's Plains"
+          right="212"
+          link="https://www.churchofjesuschrist.org/media/music/songs/far-far-away-on-judeas-plains?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -104,17 +100,16 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Again We Meet Around the Board"
-          right="186"
-          link="https://www.churchofjesuschrist.org/media/music/songs/again-we-meet-around-the-board?lang=eng"
+          middle="Thy Will, O Lord, Be Done"
+          right="188"
+          link="https://www.churchofjesuschrist.org/media/music/songs/thy-will-o-lord-be-done?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Conrad Hoover" />
         <LineItem left="Speaker" right="Sabrina Hulse" />
 
@@ -126,12 +121,13 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="Rob Anderson" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="O Little Town of Bethlehem"
-          right="208"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-little-town-of-bethlehem?lang=eng"
+          middle="Once in Royal David's City"
+          right="205"
+          link="https://www.churchofjesuschrist.org/media/music/songs/once-in-royal-davids-city?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
