@@ -20,11 +20,7 @@ export default function Index() {
      * - switces hero img by month automatically
      */
     <div className="w-full h-full">
-      <img
-        src="/img/bible_films_christ_walking_disciples.jpeg"
-        className="pb-4 m-auto"
-        alt="jesus"
-      />
+      <img src="/img/christmas-star.jpg" className="pb-4 m-auto" alt="jesus" />
       <img
         src="/img/modern-logo.png"
         className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
@@ -60,26 +56,26 @@ export default function Index() {
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
-              backup signup to be passed around during second hour.
-              (
-                <a 
-                  href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
-                  className="text-sky-600 hover:text-sky-800 underline break-words"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Sign up here
-                </a>
+              backup signup to be passed around during second hour. (
+              <a
+                href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
+                className="text-sky-600 hover:text-sky-800 underline break-words"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up here
+              </a>
               )
             </li>
             <li className="pt-1">
-              The Ward has reservations to perform proxy baptisms at the Mesa Temple on Saturday,
-              December 20, 2025. The convoy will need to depart the stake center parking lot by 5:15 a.m.
-              to arrive at the temple by 5:25 a.m. 
+              The Ward has reservations to perform proxy baptisms at the Mesa
+              Temple on Saturday, December 20, 2025. The convoy will need to
+              depart the stake center parking lot by 5:15 a.m. to arrive at the
+              temple by 5:25 a.m.
             </li>
             <li className="pt-1">
-              Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays in Rooms
-              20 and 21 (between the Library and Bishop's office).
+              Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays
+              in Rooms 20 and 21 (between the Library and Bishop's office).
             </li>
             <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
