@@ -29,7 +29,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 7, 2025</p>
+        <p className="text-2xl">December 14, 2025</p>
       </div>
 
       {/*
@@ -45,9 +45,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Steven Ray" />
+        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -91,9 +91,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Far Far Away on Judea's Plains"
-          right="212"
-          link="https://www.churchofjesuschrist.org/media/music/songs/far-far-away-on-judeas-plains?lang=eng"
+          middle="Angels We Have Heard on High"
+          right="203"
+          link="https://www.churchofjesuschrist.org/media/music/songs/angels-we-have-heard-on-high?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -101,34 +101,34 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Thy Will, O Lord, Be Done"
-          right="188"
-          link="https://www.churchofjesuschrist.org/media/music/songs/thy-will-o-lord-be-done?lang=eng"
+          middle="God Loved Us, So He Sent His Son"
+          right="187"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-loved-us-so-he-sent-his-son?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Conrad Hoover" />
-        <LineItem left="Speaker" right="Sabrina Hulse" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Elijah Kersee" />
+        <LineItem left="Speaker" right="Bobbi Rogers" />
 
         <LineItem
           left="Special Musical Number"
-          middle="With Wondering Awe"
-          right="210"
-          link="https://www.churchofjesuschrist.org/media/music/songs/with-wondering-awe?lang=eng"
+          middle="It Came Upon a Midnight Clear"
+          right="207"
+          link="https://www.churchofjesuschrist.org/media/music/songs/it-came-upon-a-midnight-clear?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Rob Anderson" />
-        */}
+        <LineItem left="Speaker" right="Paul Kessler" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Once in Royal David's City"
-          right="205"
-          link="https://www.churchofjesuschrist.org/media/music/songs/once-in-royal-davids-city?lang=eng"
+          middle="The First Noel"
+          right="213"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-first-noel?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
