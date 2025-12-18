@@ -29,7 +29,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 14, 2025</p>
+        <p className="text-2xl">December 21, 2025</p>
       </div>
 
       {/*
@@ -46,8 +46,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Holly Ashby" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 mt-4 rounded bg-sky-100">
           <div className="text-center">
@@ -68,16 +68,6 @@ export default function Index() {
               )
             </li>
             <li className="pt-1">
-              The Ward has reservations to perform proxy baptisms at the Mesa
-              Temple on Saturday, December 20, 2025. The convoy will need to
-              depart the stake center parking lot by 5:15 a.m. to arrive at the
-              temple by 5:25 a.m.
-            </li>
-            <li className="pt-1">
-              Choir Practice will be held from 11:15 AM to 12:00 PM on Sundays
-              in Rooms 20 and 21 (between the Library and Bishop's office).
-            </li>
-            <li className="pt-1">
               Bishop's Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway's home on the third Sunday
               of each month from 7:00-8:30 pm.
@@ -91,9 +81,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Angels We Have Heard on High"
-          right="203"
-          link="https://www.churchofjesuschrist.org/media/music/songs/angels-we-have-heard-on-high?lang=eng"
+          middle="Joy to the World"
+          right="201"
+          link="https://www.churchofjesuschrist.org/media/music/songs/joy-to-the-world?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -101,16 +91,17 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God Loved Us, So He Sent His Son"
-          right="187"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-loved-us-so-he-sent-his-son?lang=eng"
+          middle="Jesus Once of Humble Birth"
+          right="196"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Christmas Program" />
+
         {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
         <LineItem left="Speaker" right="Elijah Kersee" />
         <LineItem left="Speaker" right="Bobbi Rogers" />
@@ -130,6 +121,7 @@ export default function Index() {
           right="213"
           link="https://www.churchofjesuschrist.org/media/music/songs/the-first-noel?lang=eng"
         />
+        */}
 
         <LineItem left="Benediction" right="By Invitation" />
       </div>
