@@ -20,7 +20,7 @@ export default function Index() {
      * - switces hero img by month automatically
      */
     <div className="w-full h-full">
-      <img src="/img/mary-and-jesus.jpeg" className="pb-4 m-auto" alt="jesus" />
+      <img src="/img/wisemen.jpg" className="pb-4 m-auto" alt="jesus" />
       <img
         src="/img/modern-logo.png"
         className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
@@ -49,7 +49,7 @@ export default function Index() {
         <LineItemLeadership left="Organist" right="Holly Ashby" />
         <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
-        <div className="p-8 mt-4 rounded bg-sky-100">
+        <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
