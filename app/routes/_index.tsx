@@ -29,7 +29,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 21, 2025</p>
+        <p className="text-2xl">December 28, 2025</p>
       </div>
 
       {/*
@@ -81,8 +81,8 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Joy to the World"
-          right="201"
+          middle="Come Let Us Anew"
+          right="217"
           link="https://www.churchofjesuschrist.org/media/music/songs/joy-to-the-world?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
@@ -91,14 +91,22 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus Once of Humble Birth"
-          right="196"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
+          middle="Behold the Wounds in Jesus Hands"
+          right="1016"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Christmas Program" />
+        <LineItem left="Speaker" right="Brixton Kent" />
+        <LineItem left="Speaker" right="Susan Ray" />
+        
+        <LineItem
+          left="Intermediate Hymn"
+          middle="Standing on the Promises"
+          right="1023"
+        />
+        
+        <LineItem left="Speaker" right="Ben Murray" />
 
         {/*
         <LineItemBold middle="Bearing of Testimonies" />
@@ -122,6 +130,14 @@ export default function Index() {
           link="https://www.churchofjesuschrist.org/media/music/songs/the-first-noel?lang=eng"
         />
         */}
+
+
+        <LineItem
+          left="Closing Hymn"
+          middle="Oh Come All Ye Faithful"
+          right="202"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-first-noel?lang=eng"
+        />
 
         <LineItem left="Benediction" right="By Invitation" />
       </div>
