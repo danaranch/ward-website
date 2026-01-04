@@ -29,7 +29,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">December 28, 2025</p>
+        <p className="text-2xl">January 4, 2026</p>
       </div>
 
       {/*
@@ -45,9 +45,11 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
+        {/*
         <LineItemLeadership left="Organist" right="Holly Ashby" />
         <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        */}
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -81,9 +83,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come Let Us Anew"
-          right="217"
-          link="https://www.churchofjesuschrist.org/media/music/songs/joy-to-the-world?lang=eng"
+          middle="Guide Us, O Thou Great Jehovah"
+          right="83"
+          link="https://www.churchofjesuschrist.org/media/music/songs/guide-us-o-thou-great-jehovah?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -91,26 +93,16 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold the Wounds in Jesus Hands"
-          right="1016"
+          middle="In Memory of the Crucified"
+          right="190"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-memory-of-the-crucified?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItem left="Speaker" right="Brixton Kent" />
-        <LineItem left="Speaker" right="Susan Ray" />
-        
-        <LineItem
-          left="Intermediate Hymn"
-          middle="Standing on the Promises"
-          right="1023"
-        />
-        
-        <LineItem left="Speaker" right="Ben Murray" />
-
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
 
+        {/*
         <LineItem left="Speaker" right="Elijah Kersee" />
         <LineItem left="Speaker" right="Bobbi Rogers" />
 
@@ -122,21 +114,13 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="Paul Kessler" />
-
-        <LineItem
-          left="Closing Hymn"
-          middle="The First Noel"
-          right="213"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-first-noel?lang=eng"
-        />
         */}
 
-
         <LineItem
           left="Closing Hymn"
-          middle="Oh Come All Ye Faithful"
-          right="202"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-first-noel?lang=eng"
+          middle="Dear to the Heart of the Shepherd"
+          right="221"
+          link="https://www.churchofjesuschrist.org/media/music/songs/dear-to-the-heart-of-the-shepherd?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
