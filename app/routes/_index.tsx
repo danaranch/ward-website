@@ -51,7 +51,7 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -85,9 +85,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="O Thou Rock of Our Salvation"
-          right="258"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-thou-rock-of-our-salvation?lang=eng"
+          middle="I'll Go Where You Want Me to Go"
+          right="270"
+          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -110,19 +110,18 @@ export default function Index() {
         <LineItem left="Speaker" right="Rhonda Capps" />
 
         <LineItem
-          left="Intermediate Hymn"
-          middle="Onward Christian Soldiers"
-          right="246"
-          link="https://www.churchofjesuschrist.org/media/music/songs/onward-christian-soldiers?lang=eng"
+          left="Special Musical Number"
+          middle="Because I Have Been Given Much"
+          right="Hulse Family"
         />
 
         <LineItem left="Speaker" right="Haylee Hulse" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Lord I Would Follow Thee"
-          right="220"
-          link="https://www.churchofjesuschrist.org/media/music/songs/lord-i-would-follow-thee?lang=eng"
+          middle="Called to Serve"
+          right="249"
+          link="https://www.churchofjesuschrist.org/media/music/songs/called-to-serve?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
