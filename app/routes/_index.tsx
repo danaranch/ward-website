@@ -21,7 +21,7 @@ export default function Index() {
      */
     <div className="w-full h-full">
       <img
-        src="/img/pictures_of_jesus_mary_martha.jpeg"
+        src="/img/woman-at-the-well.jpg"
         className="pb-4 m-auto"
         alt="jesus"
       />
