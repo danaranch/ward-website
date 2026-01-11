@@ -58,6 +58,18 @@ export default function Index() {
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
+<li className="pt-1">
+              Temple Cleaning assignment is this week from Tuesday through Friday. (
+              <a
+                href="https://www.signupgenius.com/go/4090444ABAB2AA5F58-61431348-temple"
+                className="text-sky-600 hover:text-sky-800 underline break-words"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up here
+              </a>
+              )
+            </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
               backup signup to be passed around during second hour. (
