@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">January 4, 2026</p>
+        <p className="text-2xl">January 11, 2026</p>
       </div>
 
       {/*
@@ -50,10 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        {/*
-        <LineItemLeadership left="Organist" right="Holly Ashby" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
-        */}
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -87,9 +85,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Guide Us, O Thou Great Jehovah"
-          right="83"
-          link="https://www.churchofjesuschrist.org/media/music/songs/guide-us-o-thou-great-jehovah?lang=eng"
+          middle="O Thou Rock of Our Salvation"
+          right="258"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-thou-rock-of-our-salvation?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -97,34 +95,34 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Memory of the Crucified"
-          right="190"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-memory-of-the-crucified?lang=eng"
+          middle="Behold the Great Redeemer Die"
+          right="191"
+          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-die?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Elijah Kersee" />
-        <LineItem left="Speaker" right="Bobbi Rogers" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Fox Huffaker" />
+        <LineItem left="Speaker" right="Rhonda Capps" />
 
         <LineItem
-          left="Special Musical Number"
-          middle="It Came Upon a Midnight Clear"
-          right="207"
-          link="https://www.churchofjesuschrist.org/media/music/songs/it-came-upon-a-midnight-clear?lang=eng"
+          left="Intermediate Hymn"
+          middle="Onward Christian Soldiers"
+          right="246"
+          link="https://www.churchofjesuschrist.org/media/music/songs/onward-christian-soldiers?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Paul Kessler" />
-        */}
+        <LineItem left="Speaker" right="Haylee Hulse" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Dear to the Heart of the Shepherd"
-          right="221"
-          link="https://www.churchofjesuschrist.org/media/music/songs/dear-to-the-heart-of-the-shepherd?lang=eng"
+          middle="Lord I Would Follow Thee"
+          right="220"
+          link="https://www.churchofjesuschrist.org/media/music/songs/lord-i-would-follow-thee?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
