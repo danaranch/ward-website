@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">January 11, 2026</p>
+        <p className="text-2xl">January 18, 2026</p>
       </div>
 
       {/*
@@ -51,25 +51,13 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-<li className="pt-1">
-              Temple Cleaning assignment is this week from Tuesday through Friday. (
-              <a
-                href="https://www.signupgenius.com/go/4090444ABAB2AA5F58-61431348-temple"
-                className="text-sky-600 hover:text-sky-800 underline break-words"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sign up here
-              </a>
-              )
-            </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
               backup signup to be passed around during second hour. (
@@ -97,9 +85,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="I'll Go Where You Want Me to Go"
-          right="270"
-          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
+          middle="The Morning Breaks"
+          right="1"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-morning-breaks?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -107,9 +95,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold the Great Redeemer Die"
-          right="191"
-          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-die?lang=eng"
+          middle="He Died! The Great Redeemer Died"
+          right="192"
+          link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -118,22 +106,23 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Fox Huffaker" />
-        <LineItem left="Speaker" right="Rhonda Capps" />
+        <LineItem left="Speaker" right="Violet Capps" />
+        <LineItem left="Speaker" right="Melissa Murray" />
 
         <LineItem
-          left="Special Musical Number"
-          middle="Because I Have Been Given Much"
-          right="Hulse Family"
+          left="Intermediate Hymn"
+          middle="We Are Marching On to Glory"
+          right="225"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we-are-marching-on-to-glory?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Haylee Hulse" />
+        <LineItem left="Speaker" right="Terri Smith" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Called to Serve"
-          right="249"
-          link="https://www.churchofjesuschrist.org/media/music/songs/called-to-serve?lang=eng"
+          middle="Joseph Smith's First Prayer"
+          right="26"
+          link="https://www.churchofjesuschrist.org/media/music/songs/joseph-smiths-first-prayer?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
