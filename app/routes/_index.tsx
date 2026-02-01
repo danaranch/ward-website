@@ -33,7 +33,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">January 18, 2026</p>
+        <p className="text-2xl">February 1, 2026</p>
       </div>
 
       {/*
@@ -49,9 +49,9 @@ export default function Index() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -85,9 +85,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Morning Breaks"
-          right="1"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-morning-breaks?lang=eng"
+          middle="Praise to the Lord, the Almighty"
+          right="72"
+          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-lord-the-almighty?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -95,17 +95,16 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="He Died! The Great Redeemer Died"
-          right="192"
-          link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
+          middle="I Stand All Amazed"
+          right="193"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-stand-all-amazed?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Violet Capps" />
         <LineItem left="Speaker" right="Melissa Murray" />
 
@@ -117,12 +116,13 @@ export default function Index() {
         />
 
         <LineItem left="Speaker" right="Terri Smith" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Joseph Smith's First Prayer"
-          right="26"
-          link="https://www.churchofjesuschrist.org/media/music/songs/joseph-smiths-first-prayer?lang=eng"
+          middle="Abide with Me; 'Tis Eventide"
+          right="165"
+          link="https://www.churchofjesuschrist.org/media/music/songs/abide-with-me-tis-eventide?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
