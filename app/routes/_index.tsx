@@ -20,11 +20,7 @@ export default function Index() {
      * - switces hero img by month automatically
      */
     <div className="w-full h-full">
-      <img
-        src="/img/woman-at-the-well.jpg"
-        className="pb-4 m-auto"
-        alt="jesus"
-      />
+      <img src="/img/bethseda.jpeg" className="pb-4 m-auto" alt="jesus" />
       <img
         src="/img/modern-logo.png"
         className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
