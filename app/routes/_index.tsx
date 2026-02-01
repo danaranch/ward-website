@@ -33,7 +33,7 @@ export default function Index() {
       </div>
 
       {/*
-      TODO: Remove component from index when we get posters for foyer
+      TODO: Remove component from index when we get posters for foyer.
       */}
       <div className="pt-4">
         <ActionButton
