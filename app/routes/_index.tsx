@@ -54,6 +54,15 @@ export default function Index() {
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
+<li className="pt-1">
+              There is a Stake Youth Hike this Saturday the 7th at 8 AM. Meet at the stake center.
+            </li>
+<li className="pt-1">
+              The Relief Society has a Valentines day activity on Tuesday, February 3, at the Hakes' house.
+            </li>
+<li className="pt-1">
+              The Elders Quorumn has an activity on Thursday, February 5, at the Hulse's house.
+            </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
               backup signup to be passed around during second hour. (
