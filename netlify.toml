@@ -6,15 +6,6 @@ publish = "build/client"
 command = "npm run dev"
 framework = "vite"
 
-[[edge_functions]]
-function = "server"
-path = "/*"
-excludedPath = [
-  "/build/*",
-  "/favicon.ico",
-  "/robots.txt"
-]
-
 [[headers]]
 for = "/build/*"
 
