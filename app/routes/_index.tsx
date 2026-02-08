@@ -40,7 +40,7 @@ export default function Index() {
           link="https://zoom.us/j/98508434243"
           text="Join via broadcast"
         />
-      </div>
+      </div> 
       <hr className="h-px my-8 bg-gray-400 border-0" />
 
       <div id="services" className="mx-2">
