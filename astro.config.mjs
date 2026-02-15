@@ -7,5 +7,5 @@ export default defineConfig({
   // site: 'https://danaranchward.org',
   // If using GitHub Pages with a custom domain, remove the base property
   // If using default GitHub Pages URL (username.github.io/ward-website), uncomment:
-  base: '/ward-website',
+  base: '/ward-website/',
 });
