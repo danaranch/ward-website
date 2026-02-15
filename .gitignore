@@ -1,8 +1,8 @@
 node_modules
 
-/.cache
-/public/build
-/build
+.cache/
+build
+dist/
 .env
 
 # Local Netlify folder

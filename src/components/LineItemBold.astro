@@ -1,0 +1,11 @@
+---
+interface Props {
+  middle: string;
+}
+
+const { middle } = Astro.props;
+---
+
+<div class="text-center py-8 my-4 rounded bg-sky-100">
+  <em class="font-semibold text-lg">{middle}</em>
+</div>
