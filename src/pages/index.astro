@@ -17,13 +17,21 @@ const description = "Dana Ranch Ward Order Of Services";
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <title>{title}</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href={`${import.meta.env.BASE_URL}favicon.ico`}
+    />
   </head>
   <body class="h-full w-full m-0">
     <div class="w-full h-full">
-      <img src="/img/bethseda.jpeg" class="pb-4 m-auto" alt="jesus" />
       <img
-        src="/img/modern-logo.png"
+        src={`${import.meta.env.BASE_URL}img/bethseda.jpeg`}
+        class="pb-4 m-auto"
+        alt="jesus"
+      />
+      <img
+        src={`${import.meta.env.BASE_URL}img/modern-logo.png`}
         class="m-auto w-3/4 md:w-1/2 xl:w-1/3"
         alt="church-logo"
       />
@@ -127,7 +135,7 @@ const description = "Dana Ranch Ward Order Of Services";
           <div class="bg-[#0ea5e9] p-2 h-full">
             <img
               class="h-full"
-              src="/img/christus.png"
+              src={`${import.meta.env.BASE_URL}img/christus.png`}
               alt="Christ"
               height="full"
             />
