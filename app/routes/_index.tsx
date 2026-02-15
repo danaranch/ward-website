@@ -29,7 +29,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">February 8, 2026</p>
+        <p className="text-2xl">February 15, 2026</p>
       </div>
 
       {/*
@@ -47,16 +47,13 @@ export default function Index() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              The Relief Society has a Valentines day activity on Tuesday, February 10, at the Hakes' house.
-            </li>
             <li className="pt-1">
               Ward choir practice is every Sunday at 12:45 at the Edgewood Building.
             </li>
@@ -87,9 +84,9 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Glory to God on High"
-          right="67"
-          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
+          middle="Scatter Sunshine"
+          right="230"
+          link="https://www.churchofjesuschrist.org/media/music/songs/scatter-sunshine?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -97,9 +94,9 @@ export default function Index() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="As Now We Take the Sacrament"
-          right="169"
-          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
+          middle="How Great The Wisdom and the Love"
+          right="195"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -108,23 +105,23 @@ export default function Index() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Max Shumway" />
-        <LineItem left="Speaker" right="Elizabeth Kasl" />
+        <LineItem left="Speaker" right="Logan Downs" />
+        <LineItem left="Speaker" right="Eric Huffaker" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="There is Sunshine in My Soul Today"
-          right="227"
-          link="https://www.churchofjesuschrist.org/media/music/songs/there-is-sunshine-in-my-soul-today?lang=eng"
+          middle="We'll Bring the World His Truth"
+          right="Young Men/Young Women"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-bring-the-world-his-truth?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Michael Beagle" />
+        <LineItem left="Speaker" right="Damario Gough" />
 
         <LineItem
           left="Closing Hymn"
-          middle="We Love Thy House, O God"
-          right="247"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we-love-thy-house-o-god?lang=eng"
+          middle="Our Savior's Love"
+          right="113"
+          link="https://www.churchofjesuschrist.org/media/music/songs/our-saviors-love?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
