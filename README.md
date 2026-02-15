@@ -1,33 +1,8 @@
-# Welcome to Remix!
+# Dana Ranch Ward Website
+
+A static website built with Remix and deployed to GitHub Pages.
 
 - [Remix Docs](https://remix.run/docs)
-- [Netlify Functions Overview](https://docs.netlify.com/functions/overview)
-
-## Netlify Setup
-
-1. Install the [Netlify CLI](https://docs.netlify.com/cli/get-started/):
-
-```sh
-npm i -g netlify-cli
-```
-
-If you have previously installed the Netlify CLI, you should update it to the latest version:
-
-```sh
-npm i -g netlify-cli@latest
-```
-
-2. Sign up and log in to Netlify:
-
-```sh
-netlify login
-```
-
-3. Create a new site:
-
-```sh
-netlify init
-```
 
 ## Development
 
@@ -37,42 +12,49 @@ Ensure all packages are installed by running:
 npm install
 ```
 
-Run
+Run the development server:
 
 ```sh
-netlify dev
+npm run dev
 ```
 
-Open up [http://localhost:8888](http://localhost:8888), and you're ready to go!
+Open up [http://localhost:5173](http://localhost:5173), and you're ready to go!
 
-### Serve your site locally
+## Building
 
-To serve your site locally in a production-like environment, run
+To build the static site:
 
 ```sh
-netlify serve
+npm run build
 ```
 
-Your site will be available at [http://localhost:8888](http://localhost:8888). Note that it will not auto-reload when you make changes.
+To preview the production build locally:
+
+```sh
+npm run start
+```
+
+Your site will be available at [http://localhost:4173](http://localhost:4173).
 
 ## Deployment
 
-There are two ways to deploy your app to Netlify, you can either link your app to your git repo and have it auto deploy changes to Netlify, or you can deploy your app manually. If you've followed the setup instructions already, all you need to do is run this:
+This site automatically deploys to GitHub Pages when changes are pushed to the `master` branch. The GitHub Actions workflow handles the build and deployment process.
+
+To manually trigger a deployment, push your changes to the `master` branch:
 
 ```sh
-# preview deployment
-netlify deploy --build
-
-# production deployment
-netlify deploy --build --prod
+git push origin master
 ```
 
 ## Tech Stack
-- Remix
-- Netlify
-- Tailwind
+
+- Remix (SPA Mode)
+- Vite
+- Tailwind CSS
+- GitHub Pages
 
 ## Project Management
+
 - [x] Splash img at top of services
 - [x] Church logo under splash img
 - [ ] Button to join broadcast

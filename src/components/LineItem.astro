@@ -1,0 +1,44 @@
+---
+interface Props {
+  left: string;
+  middle?: string;
+  right: string;
+  link?: string;
+}
+
+const { left, middle, right, link } = Astro.props;
+---
+
+{link ? (
+  <a href={link} class="block">
+    <div class="py-4">
+      <div class="flex">
+        <div class="flex-none px-1">{left}</div>
+        <div class="flex-1 mb-1 border-b border-dashed border-stone-300 height-18 truncate">
+        </div>
+        <div class="flex-none px-1 text-right">{right}</div>
+      </div>
+      {middle && (
+        <div class="text-center font-sm truncate zero-auto max-75">
+          <div class="italic" set:html={middle}>
+          </div>
+        </div>
+      )}
+    </div>
+  </a>
+) : (
+  <div class="py-4">
+    <div class="flex">
+      <div class="flex-none px-1">{left}</div>
+      <div class="flex-1 mb-1 border-b border-dashed border-stone-300 height-18 truncate">
+      </div>
+      <div class="flex-none px-1 text-right">{right}</div>
+    </div>
+    {middle && (
+      <div class="text-center font-sm truncate zero-auto max-75">
+        <div class="italic" set:html={middle}>
+        </div>
+      </div>
+    )}
+  </div>
+)}
