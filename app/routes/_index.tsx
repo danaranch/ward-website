@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@netlify/remix-runtime";
+import type { MetaFunction } from "@remix-run/node";
 import ActionButton from "~/components/ActionButton";
 import LineItem from "~/components/LineItem";
 import LineItemLeadership from "~/components/LineItemLeadership";
